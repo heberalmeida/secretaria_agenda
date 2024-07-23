@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Meu Calendário</h1>
+    <h1>ADMCG</h1>
     <CalendarComponent />
   </div>
 </template>
