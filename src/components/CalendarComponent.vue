@@ -172,6 +172,15 @@
     .cv-item {
       font-size: 12px !important;
     }
+    .theme-default .cv-header .periodLabel {
+        font-size: 1em !important;
+    }
+
+    .theme-default .cv-item {
+    text-overflow: initial;
+    text-wrap: wrap;
+    display: block;
+}
   }
   </style>
   
