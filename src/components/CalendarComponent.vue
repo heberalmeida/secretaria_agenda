@@ -46,7 +46,7 @@ export default {
                 { id: 8, startDate: "2024-07-27", endDate: "2024-07-27", title: "Aniversário de Pastorado", classes: ["event-yellow"] },
                 { id: 8, startDate: "2024-07-30", endDate: "2024-07-30", title: `SETOR 08
 Caioba II - SETOR 20
-Indubrasil - SETOR 15`, classes: ["event-yellow"] },
+Indubrasil - SETOR 15`, classes: ["event-red2"] },
                 { id: 9, startDate: "2024-08-02", endDate: "2024-08-02", title: "Moacir Frank", classes: ["event-blue"] },
                 { id: 10, startDate: "2024-08-03", endDate: "2024-08-03", title: "Consagração da UFADECAMP", classes: ["event-write"] },
                 { id: 11, startDate: "2024-08-03", endDate: "2024-08-03", title: "Culto da UMADECAMP", classes: ["event-write"] },
@@ -214,6 +214,11 @@ Indubrasil - SETOR 15`, classes: ["event-yellow"] },
 
 .event-lightblue {
     background-color: #03a9f4 !important;
+    color: white !important;
+}
+
+.event-red2 {
+    background-color: #ff3b74 !important;
     color: white !important;
 }
 
