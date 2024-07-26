@@ -242,6 +242,10 @@ Carvalho`, classes: ["event-red2"] },
     color: black !important;
 }
 
+.theme-default .cv-item {
+    text-wrap: wrap;
+}
+
 @media (max-width: 600px) {
     .cv-item {
         font-size: 10px !important;
