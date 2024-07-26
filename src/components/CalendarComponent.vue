@@ -47,6 +47,21 @@ export default {
                 { id: 8, startDate: "2024-07-30", endDate: "2024-07-30", title: `SETOR 08
 Caioba II - SETOR 20
 Indubrasil - SETOR 15`, classes: ["event-red2"] },
+{ id: 8, startDate: "2024-08-06", endDate: "2024-08-06", title: `SETOR 09
+Centro Oeste - SETOR 04
+Anache - SETOR 14`, classes: ["event-red2"] },
+{ id: 8, startDate: "2024-08-13", endDate: "2024-08-13", title: `SETOR 10
+Vila Kellen - SETOR 01
+Jussara - SETOR 02
+Sede`, classes: ["event-red2"] },
+{ id: 8, startDate: "2024-08-20", endDate: "2024-08-20", title: `SETOR 11
+Columbia II - SETOR 07
+Colibri II - SETOR 17
+Bandeirantes`, classes: ["event-red2"] },
+{ id: 8, startDate: "2024-08-27", endDate: "2024-08-27", title: `SETOR 12
+Liberdade Setor - SETOR 06
+Novo Século - SETOR 05
+Carvalho`, classes: ["event-red2"] },
                 { id: 9, startDate: "2024-08-02", endDate: "2024-08-02", title: "Moacir Frank", classes: ["event-blue"] },
                 { id: 10, startDate: "2024-08-03", endDate: "2024-08-03", title: "Consagração da UFADECAMP", classes: ["event-write"] },
                 { id: 11, startDate: "2024-08-03", endDate: "2024-08-03", title: "Culto da UMADECAMP", classes: ["event-write"] },
