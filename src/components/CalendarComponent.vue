@@ -40,6 +40,7 @@ export default {
                 { id: 1, startDate: "2024-09-11", endDate: "2024-09-11", title: "Elias Logo", classes: ["event-blue"] },
                 { id: 2, startDate: "2024-07-05", endDate: "2024-07-07", title: "Congresso UMADECAMP", classes: ["event-orange"] },
                 { id: 3, startDate: "2024-07-06", endDate: "2024-07-06", title: "Consagração UFADECAMP", classes: ["event-write"] },
+                { id: 3, startDate: "2024-08-01", endDate: "2024-08-01", title: "Reunião Ministros Evagenlistas e Pastores - Templo Central", classes: ["event-blue"] },
                 { id: 4, startDate: "2024-07-18", endDate: "2024-07-18", title: "Reunião Geral", classes: ["event-blue"] },
                 { id: 5, startDate: "2024-07-20", endDate: "2024-07-20", title: "Culto AADECAAMP", classes: ["event-write"] },
                 { id: 6, startDate: "2024-07-23", endDate: "2024-07-23", title: "Reunião Jorge F Setor 11", classes: ["event-write"] },
@@ -80,6 +81,7 @@ export default {
                     "title": "SETOR 12, Liberdade Setor (ST 06), Novo Século (ST 05), Carvalho",
                     "classes": ["event-red2"]
                 },
+                { id: 9, startDate: "2024-08-31", endDate: "2024-08-31", title: "Nilton Rocha", classes: ["event-blue"] },
                 { id: 9, startDate: "2024-08-02", endDate: "2024-08-02", title: "Moacir Frank", classes: ["event-blue"] },
                 { id: 10, startDate: "2024-08-03", endDate: "2024-08-03", title: "Consagração UFADECAMP", classes: ["event-write"] },
                 { id: 11, startDate: "2024-08-03", endDate: "2024-08-03", title: "Culto da UMADECAMP", classes: ["event-write"] },
