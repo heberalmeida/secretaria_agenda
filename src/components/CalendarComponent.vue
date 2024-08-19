@@ -37,7 +37,7 @@ export default {
             tooltipStyle: {},
             calendarItems: [
                 { id: 1, startDate: "2024-07-04", endDate: "2024-07-04", title: "Josuel", classes: ["event-blue"] },
-                { id: 1, startDate: "2024-09-11", endDate: "2024-09-18", title: "Elias Logo", classes: ["event-blue"] },
+                { id: 1, startDate: "2024-09-18", endDate: "2024-09-18", title: "Elias Logo", classes: ["event-blue"] },
                 { id: 2, startDate: "2024-07-05", endDate: "2024-07-07", title: "Congresso UMADECAMP", classes: ["event-orange"] },
                 { id: 3, startDate: "2024-07-06", endDate: "2024-07-06", title: "Consagração UFADECAMP", classes: ["event-write"] },
                 { id: 3, startDate: "2024-08-01", endDate: "2024-08-01", title: "Reunião Ministros Evagenlistas e Pastores - Templo Central", classes: ["event-blue"] },
