@@ -88,7 +88,7 @@ export default {
                 { id: 12, startDate: "2024-08-16", endDate: "2024-08-18", title: "Congresso UFADECAMP", classes: ["event-orange"] },
                 { id: 13, startDate: "2024-08-17", endDate: "2024-08-17", title: "Culto AADECAAMP", classes: ["event-write"] },
                 { id: 14, startDate: "2024-08-24", endDate: "2024-08-25", title: "Setor1 - Crianças e adolescentes", classes: ["event-purple"] },
-                { id: 15, startDate: "2024-08-19", endDate: "2024-08-19", title: "Pr. Jorge Franco", classes: ["event-write"] },
+                { id: 15, startDate: "2024-08-21", endDate: "2024-08-21", title: "Pr. Jorge Franco", classes: ["event-write"] },
                 { id: 15, startDate: "2024-08-22", endDate: "2024-08-22", title: "CCPO", classes: ["event-green"] },
                 { id: 66, startDate: "2024-08-29", endDate: "2024-08-29", title: "CCPO", classes: ["event-green"] },
                 { id: 66, startDate: "2024-09-05", endDate: "2024-09-05", title: "CCPO", classes: ["event-green"] },
