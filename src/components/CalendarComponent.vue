@@ -73,7 +73,7 @@ export default {
         "endDate": "2024-09-24",
         "title": "SETOR 16, Caiçara - SETOR 11, Itália - SETOR 12",
         "classes": ["event-red2"]
-    }
+    },
                 {
                     "id": 8,
                     "startDate": "2024-07-30",
