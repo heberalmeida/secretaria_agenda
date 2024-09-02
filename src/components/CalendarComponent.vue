@@ -48,6 +48,34 @@ export default {
                 { id: 8, startDate: "2024-07-27", endDate: "2024-07-27", title: "Aniversário de Pastorado", classes: ["event-yellow"] },
                 {
                     "id": 8,
+                    "startDate": "2024-09-03",
+                    "endDate": "2024-09-03",
+                    "title": "SETOR 13, Campo Alto - SETOR 08, Vila Marli - SETOR 09",
+                    "classes": ["event-red2"]
+                },
+                {
+        "id": 1,
+        "startDate": "2024-09-10",
+        "endDate": "2024-09-10",
+        "title": "SETOR 14, Beija Flor - SETOR 10, Jardim das Meninas - SETOR 04",
+        "classes": ["event-red2"]
+    },
+    {
+        "id": 2,
+        "startDate": "2024-09-17",
+        "endDate": "2024-09-17",
+        "title": "SETOR 15, Parati - SETOR 03, Costa Verde - SETOR 13",
+        "classes": ["event-red2"]
+    },
+    {
+        "id": 3,
+        "startDate": "2024-09-24",
+        "endDate": "2024-09-24",
+        "title": "SETOR 16, Caiçara - SETOR 11, Itália - SETOR 12",
+        "classes": ["event-red2"]
+    }
+                {
+                    "id": 8,
                     "startDate": "2024-07-30",
                     "endDate": "2024-07-30",
                     "title": "SETOR 08, Caioba II (ST 20), Indubrasil (ST 15)",
