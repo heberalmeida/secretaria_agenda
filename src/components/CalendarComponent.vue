@@ -132,7 +132,7 @@ export default {
                 { id: 22, startDate: "2024-09-07", endDate: "2024-09-07", title: "Setor9 - Kids", classes: ["event-purple"] },
                 { id: 23, startDate: "2024-09-12", endDate: "2024-09-14", title: "Setor13", classes: ["event-purple"] },
                 { id: 25, startDate: "2024-09-12", endDate: "2024-09-15", title: "Setor15", classes: ["event-purple"] },
-                { id: 24, startDate: "2024-09-13", endDate: "2024-09-14", title: "Setor9 - Irmãs", classes: ["event-purple"] },
+                { id: 24, startDate: "2024-09-22", endDate: "2024-09-23", title: "Setor9 - Irmãs", classes: ["event-purple"] },
                 { id: 25, startDate: "2024-09-13", endDate: "2024-09-15", title: "Setor3 - Jovens e adolescentes", classes: ["event-purple"] },
                 { id: 25, startDate: "2024-09-13", endDate: "2024-09-15", title: "Setor6", classes: ["event-purple"] },
                 { id: 25, startDate: "2024-09-13", endDate: "2024-09-15", title: "Setor14 - Jovens e Adolesc", classes: ["event-purple"] },
