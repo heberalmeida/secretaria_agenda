@@ -328,4 +328,8 @@ export default {
         max-height: 40px !important;
     }
 }
+
+.theme-default .cv-day.today {
+    background-color: #f7f7b4 !important;
+}
 </style>
