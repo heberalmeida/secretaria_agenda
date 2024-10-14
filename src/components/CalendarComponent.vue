@@ -153,7 +153,7 @@ export default {
                 { id: 39, startDate: "2024-10-12", endDate: "2024-10-12", title: "Congresso ADM Kids", classes: ["event-orange"] },
                 { id: 40, startDate: "2024-10-18", endDate: "2024-10-20", title: "Congresso AADECAMP", classes: ["event-orange"] },
                 { id: 41, startDate: "2024-11-15", endDate: "2024-11-17", title: "AGO COMADEMS", classes: ["event-lightblue"] },
-                { id: 42, startDate: "2024-10-24", endDate: "2024-10-21", title: "Francemildo", classes: ["event-blue"] },
+                { id: 42, startDate: "2024-10-21", endDate: "2024-10-21", title: "Francemildo", classes: ["event-blue"] },
                 { id: 43, startDate: "2024-10-25", endDate: "2024-10-27", title: "Setor1 - Irmãs e Jovens", classes: ["event-purple"] },
                 { id: 44, startDate: "2024-10-25", endDate: "2024-10-27", title: "Setor2", classes: ["event-purple"] },
                 { id: 45, startDate: "2024-10-25", endDate: "2024-10-27", title: "Setor9 - Jovens e Adolescentes", classes: ["event-purple"] },
