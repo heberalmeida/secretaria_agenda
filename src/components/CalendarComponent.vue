@@ -47,6 +47,7 @@ export default {
                 { id: 6, startDate: "2024-07-23", endDate: "2024-07-23", title: "Reunião Jorge F Setor 11", classes: ["event-write"] },
                 { id: 7, startDate: "2024-07-27", endDate: "2024-07-27", title: "Santa Ceia Geral", classes: ["event-gray"] },
                 { id: 8, startDate: "2024-07-27", endDate: "2024-07-27", title: "Aniversário de Pastorado", classes: ["event-yellow"] },
+                { id: 8, startDate: "2024-12-12", endDate: "2024-12-12", title: "Formatura ISERCAMP", classes: ["event-yellow"] },
                 {
                     "id": 8,
                     "startDate": "2024-09-03",
