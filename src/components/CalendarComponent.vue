@@ -52,7 +52,7 @@ export default {
                 { id: 8, startDate: "2024-11-28", endDate: "2024-11-28", title: "Reunião de Ministros Região Sul", classes: ["event-blue2"] },
                 { id: 8, startDate: "2024-12-02", endDate: "2024-12-02", title: "Reunião de Ministros Região Oeste", classes: ["event-blue2"] },
                 { id: 8, startDate: "2024-12-09", endDate: "2024-12-09", title: "Reunião de Ministros Região Leste", classes: ["event-blue2"] },
-                { id: 8, startDate: "2024-12-16", endDate: "2024-11-16", title: "Reunião de Ministros Região Norte", classes: ["event-blue2"] },
+                { id: 8, startDate: "2024-12-16", endDate: "2024-12-16", title: "Reunião de Ministros Região Norte", classes: ["event-blue2"] },
                 {
                     "id": 8,
                     "startDate": "2024-09-03",
