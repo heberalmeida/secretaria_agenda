@@ -49,6 +49,10 @@ export default {
                 { id: 8, startDate: "2024-07-27", endDate: "2024-07-27", title: "Aniversário de Pastorado", classes: ["event-yellow"] },
                 { id: 8, startDate: "2024-12-12", endDate: "2024-12-12", title: "Formatura ISERCAMP", classes: ["event-yellow"] },
                 { id: 8, startDate: "2024-11-26", endDate: "2024-11-26", title: "Eduardo Naline", classes: ["event-blue"] },
+                { id: 8, startDate: "2024-11-28", endDate: "2024-11-28", title: "Reunião de Ministros Região Sul", classes: ["event-blue2"] },
+                { id: 8, startDate: "2024-12-02", endDate: "2024-12-02", title: "Reunião de Ministros Região Oeste", classes: ["event-blue2"] },
+                { id: 8, startDate: "2024-12-09", endDate: "2024-12-09", title: "Reunião de Ministros Região Leste", classes: ["event-blue2"] },
+                { id: 8, startDate: "2024-12-16", endDate: "2024-11-16", title: "Reunião de Ministros Região Norte", classes: ["event-blue2"] },
                 {
                     "id": 8,
                     "startDate": "2024-09-03",
@@ -270,6 +274,11 @@ export default {
 
 .event-green {
     background-color: #4caf50 !important;
+    color: white !important;
+}
+
+.event-blue2 {
+    background-color: #4c70af !important;
     color: white !important;
 }
 
