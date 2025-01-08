@@ -1,0 +1,405 @@
+[
+  {
+    "mes": "Janeiro",
+    "eventos": [
+      {
+        "titulo": "Assembleia Geral",
+        "dataInicio": "2025-01-07T19:00:00",
+        "dataFim": "2025-01-07T21:00:00",
+        "tag":  "Geral"
+      },
+      {
+        "titulo": "Janeiro Profético",
+        "dataInicio": "2025-01-13T19:00:00",
+        "dataFim": "2025-01-24T21:00:00",
+        "tag": "Geral"
+      }
+    ]
+  },
+  {
+    "mes": "Fevereiro",
+    "eventos": [
+      {
+        "titulo": "Culto da UMADECAMP",
+        "dataInicio": "2025-02-01T19:00:00",
+        "dataFim": "2025-02-01T21:00:00",
+        "tag": "UMADECAMP"
+      },
+      {
+        "titulo": "Consagração da UFADECAMP",
+        "dataInicio": "2025-02-01T09:00:00",
+        "dataFim": "2025-02-01T11:00:00",
+        "tag": "UFADECAMP"
+      },
+      {
+        "titulo": "Culto da AADECAMP",
+        "dataInicio": "2025-02-15T19:00:00",
+        "dataFim": "2025-02-15T21:00:00",
+        "tag": "AADECAMP"
+      },
+      {
+        "titulo": "Reunião Ministerial",
+        "dataInicio": "2025-02-06T19:00:00",
+        "dataFim": "2025-02-06T21:00:00",
+        "tag": null
+      }
+    ]
+  },
+  {
+    "mes": "Março",
+    "eventos": [
+      {
+        "titulo": "Culto da UMADECAMP",
+        "dataInicio": "2025-03-01T19:00:00",
+        "dataFim": "2025-03-01T21:00:00",
+        "tag": "UMADECAMP"
+      },
+      {
+        "titulo": "Consagração da UFADECAMP",
+        "dataInicio": "2025-03-01T09:00:00",
+        "dataFim": "2025-03-01T11:00:00",
+        "tag": "UFADECAMP"
+      },
+      {
+        "titulo": "Culto da AADECAMP",
+        "dataInicio": "2025-03-15T19:00:00",
+        "dataFim": "2025-03-15T21:00:00",
+        "tag": "AADECAMP"
+      },
+      {
+        "titulo": "Workshop",
+        "dataInicio": "2025-03-03T19:00:00",
+        "dataFim": "2025-03-04T21:00:00",
+        "tag": null
+      },
+      {
+        "titulo": "Batismo",
+        "dataInicio": "2025-03-18T09:00:00",
+        "dataFim": "2025-03-18T12:00:00",
+        "tag":  "Batismo"
+      },
+      {
+        "titulo": "Aniversário do Pastor",
+        "dataInicio": "2025-03-21T19:00:00",
+        "dataFim": "2025-03-21T21:00:00",
+        "tag": "Geral"
+      },
+      {
+        "titulo": "Santa Ceia Geral",
+        "dataInicio": "2025-03-29T19:00:00",
+        "dataFim": "2025-03-29T21:00:00",
+        "tag": null
+      }
+    ]
+  },
+  {
+    "mes": "Abril",
+    "eventos": [
+      {
+        "titulo": "Culto da UMADECAMP",
+        "dataInicio": "2025-04-05T19:00:00",
+        "dataFim": "2025-04-05T21:00:00",
+        "tag": "UMADECAMP"
+      },
+      {
+        "titulo": "Consagração da UFADECAMP",
+        "dataInicio": "2025-04-05T09:00:00",
+        "dataFim": "2025-04-05T11:00:00",
+        "tag": "UFADECAMP"
+      },
+      {
+        "titulo": "Culto da AADECAMP",
+        "dataInicio": "2025-04-19T19:00:00",
+        "dataFim": "2025-04-19T21:00:00",
+        "tag": "AADECAMP"
+      },
+      {
+        "titulo": "34º EBCG",
+        "dataInicio": "2025-04-17T19:00:00",
+        "dataFim": "2025-04-20T21:00:00",
+        "tag": "Geral"
+      },
+      {
+        "titulo": "Culto em ação de graças (Aniversário do Pastor)",
+        "dataInicio": "2025-04-19T19:00:00",
+        "dataFim": "2025-04-19T21:00:00",
+        "tag":  "Geral"
+      }
+    ]
+  },
+  {
+    "mes": "Maio",
+    "eventos": [
+      {
+        "titulo": "Culto da UMADECAMP",
+        "dataInicio": "2025-05-03T19:00:00",
+        "dataFim": "2025-05-03T21:00:00",
+        "tag": "UMADECAMP"
+      },
+      {
+        "titulo": "Consagração da UFADECAMP",
+        "dataInicio": "2025-05-03T09:00:00",
+        "dataFim": "2025-05-03T11:00:00",
+        "tag": "UFADECAMP"
+      },
+      {
+        "titulo": "Culto da AADECAMP",
+        "dataInicio": "2025-05-17T19:00:00",
+        "dataFim": "2025-05-17T21:00:00",
+        "tag": "AADECAMP"
+      },
+      {
+        "titulo": "Reunião Ministerial",
+        "dataInicio": "2025-05-08T19:00:00",
+        "dataFim": "2025-05-08T21:00:00",
+        "tag": null
+      }
+    ]
+  },
+  {
+    "mes": "Junho",
+    "eventos": [
+      {
+        "titulo": "Culto da UMADECAMP",
+        "dataInicio": "2025-06-07T19:00:00",
+        "dataFim": "2025-06-07T21:00:00",
+        "tag": "UMADECAMP"
+      },
+      {
+        "titulo": "Consagração da UFADECAMP",
+        "dataInicio": "2025-06-07T09:00:00",
+        "dataFim": "2025-06-07T11:00:00",
+        "tag": "UFADECAMP"
+      },
+      {
+        "titulo": "Culto da AADECAMP",
+        "dataInicio": "2025-06-21T19:00:00",
+        "dataFim": "2025-06-21T21:00:00",
+        "tag": "AADECAMP"
+      },
+      {
+        "titulo": "Jantar dos Namorados",
+        "dataInicio": "2025-06-12T19:00:00",
+        "dataFim": "2025-06-12T22:00:00",
+        "tag": null
+      },
+      {
+        "titulo": "Batismo",
+        "dataInicio": "2025-06-17T09:00:00",
+        "dataFim": "2025-06-17T12:00:00",
+        "tag":  "Batismo"
+      },
+      {
+        "titulo": "Congresso Unificado - SEDE",
+        "dataInicio": "2025-06-20T19:00:00",
+        "dataFim": "2025-06-22T21:00:00",
+        "tag": "Congresso"
+      },
+      {
+        "titulo": "Vigília 300 Gideões",
+        "dataInicio": "2025-06-27T22:00:00",
+        "dataFim": "2025-06-28T06:00:00",
+        "tag": null
+      }
+    ]
+  },
+  {
+    "mes": "Julho",
+    "eventos": [
+      {
+        "titulo": "Congresso UMADECAMP",
+        "dataInicio": "2025-07-04T19:00:00",
+        "dataFim": "2025-07-06T21:00:00",
+        "tag": "Congresso"
+      },
+      {
+        "titulo": "Consagração da UFADECAMP",
+        "dataInicio": "2025-07-05T09:00:00",
+        "dataFim": "2025-07-05T11:00:00",
+        "tag": "UFADECAMP"
+      },
+      {
+        "titulo": "Culto da AADECAMP",
+        "dataInicio": "2025-07-19T19:00:00",
+        "dataFim": "2025-07-19T21:00:00",
+        "tag": "AADECAMP"
+      },
+      {
+        "titulo": "Santa Ceia Geral (Culto Ação 34 anos de Pastorado)",
+        "dataInicio": "2025-07-26T19:00:00",
+        "dataFim": "2025-07-26T21:00:00",
+        "tag": null
+      }
+    ]
+  },
+  {
+    "mes": "Agosto",
+    "eventos": [
+      {
+        "titulo": "Culto da UMADECAMP",
+        "dataInicio": "2025-08-02T19:00:00",
+        "dataFim": "2025-08-02T21:00:00",
+        "tag": "UMADECAMP"
+      },
+      {
+        "titulo": "Consagração da UFADECAMP",
+        "dataInicio": "2025-08-02T09:00:00",
+        "dataFim": "2025-08-02T11:00:00",
+        "tag": "UFADECAMP"
+      },
+      {
+        "titulo": "Culto da AADECAMP",
+        "dataInicio": "2025-08-16T19:00:00",
+        "dataFim": "2025-08-16T21:00:00",
+        "tag": "AADECAMP"
+      },
+      {
+        "titulo": "Congresso da UFADECAMP",
+        "dataInicio": "2025-08-15T19:00:00",
+        "dataFim": "2025-08-17T21:00:00",
+        "tag": "Congresso"
+      },
+      {
+        "titulo": "CPPO",
+        "dataInicio": "2025-08-07T19:00:00",
+        "dataFim": "2025-09-25T21:00:00",
+        "tag":  "Geral"
+      }
+    ]
+  },
+  {
+    "mes": "Setembro",
+    "eventos": [
+      {
+        "titulo": "Culto da UMADECAMP",
+        "dataInicio": "2025-09-06T19:00:00",
+        "dataFim": "2025-09-06T21:00:00",
+        "tag": "UMADECAMP"
+      },
+      {
+        "titulo": "Consagração da UFADECAMP",
+        "dataInicio": "2025-09-06T09:00:00",
+        "dataFim": "2025-09-06T11:00:00",
+        "tag": "UFADECAMP"
+      },
+      {
+        "titulo": "Culto da AADECAMP",
+        "dataInicio": "2025-09-20T19:00:00",
+        "dataFim": "2025-09-20T21:00:00",
+        "tag": "AADECAMP"
+      },
+      {
+        "titulo": "Congresso da SEMADEMS",
+        "dataInicio": "2025-09-19T19:00:00",
+        "dataFim": "2025-09-21T21:00:00",
+        "tag": "Congresso"
+      },
+      {
+        "titulo": "Batismo",
+        "dataInicio": "2025-09-30T09:00:00",
+        "dataFim": "2025-09-30T12:00:00",
+        "tag":  "Batismo"
+      }
+    ]
+  },
+  {
+    "mes": "Outubro",
+    "eventos": [
+      {
+        "titulo": "Culto da UMADECAMP",
+        "dataInicio": "2025-10-04T19:00:00",
+        "dataFim": "2025-10-04T21:00:00",
+        "tag": "UMADECAMP"
+      },
+      {
+        "titulo": "Consagração da UFADECAMP",
+        "dataInicio": "2025-10-04T09:00:00",
+        "dataFim": "2025-10-04T11:00:00",
+        "tag": "UFADECAMP"
+      },
+      {
+        "titulo": "Congresso da AADECAMP",
+        "dataInicio": "2025-10-18T19:00:00",
+        "dataFim": "2025-10-20T21:00:00",
+        "tag": "Congresso"
+      },
+      {
+        "titulo": "Congresso da ADM Kids",
+        "dataInicio": "2025-10-25T14:00:00",
+        "dataFim": "2025-10-25T18:00:00",
+        "tag": "Congresso"
+      }
+    ]
+  },
+  {
+    "mes": "Novembro",
+    "eventos": [
+      {
+        "titulo": "Culto da UMADECAMP",
+        "dataInicio": "2025-11-01T19:00:00",
+        "dataFim": "2025-11-01T21:00:00",
+        "tag": "UMADECAMP"
+      },
+      {
+        "titulo": "Consagração da UFADECAMP",
+        "dataInicio": "2025-11-01T09:00:00",
+        "dataFim": "2025-11-01T11:00:00",
+        "tag": "UFADECAMP"
+      },
+      {
+        "titulo": "Culto da AADECAMP",
+        "dataInicio": "2025-11-15T19:00:00",
+        "dataFim": "2025-11-15T21:00:00",
+        "tag": "AADECAMP"
+      },
+      {
+        "titulo": "Culto Santa Ceia Geral",
+        "dataInicio": "2025-11-29T19:00:00",
+        "dataFim": "2025-11-29T21:00:00",
+        "tag": null
+      }
+    ]
+  },
+  {
+    "mes": "Dezembro",
+    "eventos": [
+      {
+        "titulo": "Culto da UMADECAMP",
+        "dataInicio": "2025-12-06T19:00:00",
+        "dataFim": "2025-12-06T21:00:00",
+        "tag": "UMADECAMP"
+      },
+      {
+        "titulo": "Consagração da UFADECAMP",
+        "dataInicio": "2025-12-06T09:00:00",
+        "dataFim": "2025-12-06T11:00:00",
+        "tag": "UFADECAMP"
+      },
+      {
+        "titulo": "Culto da AADECAMP",
+        "dataInicio": "2025-12-20T19:00:00",
+        "dataFim": "2025-12-20T21:00:00",
+        "tag": "AADECAMP"
+      },
+      {
+        "titulo": "Batismo",
+        "dataInicio": "2025-12-16T09:00:00",
+        "dataFim": "2025-12-16T12:00:00",
+        "tag": "Batismo"
+      },
+      {
+        "titulo": "Culto da Gratidão - Separação de Obreiros",
+        "dataInicio": "2025-12-20T19:00:00",
+        "dataFim": "2025-12-20T21:00:00",
+        "tag":  "Geral"
+      },
+      {
+        "titulo": "Culto da Virada",
+        "dataInicio": "2025-12-31T22:00:00",
+        "dataFim": "2026-01-01T01:00:00",
+        "tag":  "Geral"
+      }
+    ]
+  }
+]
+
