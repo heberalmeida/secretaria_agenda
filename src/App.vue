@@ -60,17 +60,22 @@ const horarioAtual = ref(null); // Inicialmente nulo
 
 // Função para formatar datas
 const formatarData = (data) => {
-  const opcoes = {
+  const opcoesData = {
     weekday: "long",
-    year: "numeric",
+    day: "2-digit",
     month: "long",
-    day: "numeric",
+    year: "numeric",
+  };
+  const opcoesHora = {
     hour: "2-digit",
     minute: "2-digit",
     second: "2-digit",
   };
-  return new Date(data).toLocaleDateString("pt-BR", opcoes);
+  const dataFormatada = new Date(data).toLocaleDateString("pt-BR", opcoesData);
+  const horaFormatada = new Date(data).toLocaleTimeString("pt-BR", opcoesHora);
+  return `${dataFormatada} ${horaFormatada}`;
 };
+
 
 // Verificar se o evento está encerrado
 const eventoEncerrado = (dataFim) => {
