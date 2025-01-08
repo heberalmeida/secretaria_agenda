@@ -10,7 +10,7 @@
       },
       {
         "titulo": "Janeiro Profético",
-        "dataInicio": "2025-01-13T19:00:00",
+        "dataInicio": "2025-01-13T19:30:00",
         "dataFim": "2025-01-24T21:00:00",
         "tag": "Geral"
       }
@@ -39,7 +39,7 @@
       },
       {
         "titulo": "Reunião Ministerial",
-        "dataInicio": "2025-02-06T19:00:00",
+        "dataInicio": "2025-02-06T19:30:00",
         "dataFim": "2025-02-06T21:00:00",
         "tag": null
       }
@@ -68,14 +68,14 @@
       },
       {
         "titulo": "Workshop",
-        "dataInicio": "2025-03-03T19:00:00",
+        "dataInicio": "2025-03-03T19:30:00",
         "dataFim": "2025-03-04T21:00:00",
         "tag": null
       },
       {
         "titulo": "Batismo",
-        "dataInicio": "2025-03-18T09:00:00",
-        "dataFim": "2025-03-18T12:00:00",
+        "dataInicio": "2025-03-18T19:30:00",
+        "dataFim": "2025-03-18T12:21:00",
         "tag":  "Batismo"
       },
       {
@@ -88,7 +88,7 @@
         "titulo": "Santa Ceia Geral",
         "dataInicio": "2025-03-29T19:00:00",
         "dataFim": "2025-03-29T21:00:00",
-        "tag": null
+        "tag": "Ceia"
       }
     ]
   },
@@ -150,7 +150,7 @@
       },
       {
         "titulo": "Reunião Ministerial",
-        "dataInicio": "2025-05-08T19:00:00",
+        "dataInicio": "2025-05-08T19:30:00",
         "dataFim": "2025-05-08T21:00:00",
         "tag": null
       }
@@ -179,14 +179,14 @@
       },
       {
         "titulo": "Jantar dos Namorados",
-        "dataInicio": "2025-06-12T19:00:00",
+        "dataInicio": "2025-06-12T19:30:00",
         "dataFim": "2025-06-12T22:00:00",
-        "tag": null
+        "tag": "Família"
       },
       {
         "titulo": "Batismo",
-        "dataInicio": "2025-06-17T09:00:00",
-        "dataFim": "2025-06-17T12:00:00",
+        "dataInicio": "2025-06-17T19:30:00",
+        "dataFim": "2025-06-17T21:00:00",
         "tag":  "Batismo"
       },
       {
@@ -228,7 +228,7 @@
         "titulo": "Santa Ceia Geral (Culto Ação 34 anos de Pastorado)",
         "dataInicio": "2025-07-26T19:00:00",
         "dataFim": "2025-07-26T21:00:00",
-        "tag": null
+        "tag": "Ceia"
       }
     ]
   },
@@ -296,8 +296,8 @@
       },
       {
         "titulo": "Batismo",
-        "dataInicio": "2025-09-30T09:00:00",
-        "dataFim": "2025-09-30T12:00:00",
+        "dataInicio": "2025-09-30T19:30:00",
+        "dataFim": "2025-09-30T21:00:00",
         "tag":  "Batismo"
       }
     ]
@@ -356,7 +356,7 @@
         "titulo": "Culto Santa Ceia Geral",
         "dataInicio": "2025-11-29T19:00:00",
         "dataFim": "2025-11-29T21:00:00",
-        "tag": null
+        "tag": "Ceia"
       }
     ]
   },
@@ -383,8 +383,8 @@
       },
       {
         "titulo": "Batismo",
-        "dataInicio": "2025-12-16T09:00:00",
-        "dataFim": "2025-12-16T12:00:00",
+        "dataInicio": "2025-12-16T19:30:00",
+        "dataFim": "2025-12-16T21:00:00",
         "tag": "Batismo"
       },
       {
