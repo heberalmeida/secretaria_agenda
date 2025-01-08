@@ -17,9 +17,17 @@
           :key="evento.titulo"
           :class="[ 
             'p-4 rounded shadow-md relative',
-            eventoEncerrado(evento.dataFim) ? 'bg-gray-200 opacity-50' : getColor(evento.tag)
+            eventoEncerrado(evento.dataFim) ? 'bg-gray-200 opacity-50' : getColor(evento.tag),
+            eventoIniciado(evento.dataInicio) && !eventoEncerrado(evento.dataFim) ? 'border-4 border-yellow-500' : ''
           ]"
         >
+           <!-- Ribbon para eventos iniciados -->
+           <div
+            v-if="eventoIniciado(evento.dataInicio) && !eventoEncerrado(evento.dataFim)"
+            class="absolute -top-3 left-3 bg-yellow-500 text-white text-xs font-bold px-3 py-1 rounded shadow-md"
+          >
+            em Andamento
+          </div>
           <!-- Tag (se existir) -->
           <div v-if="evento.tag" class="absolute top-2 right-2 px-2 py-1 rounded text-sm" :class="getColor(evento.tag)">
             {{ evento.tag }}
@@ -155,5 +163,12 @@ onMounted(() => {
 body {
   font-family: 'Inter', sans-serif;
   background-color: #f9fafb;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+.border-yellow-500 {
+  border-color: #eab308; /* Amarelo */
 }
 </style>
