@@ -156,6 +156,10 @@ const formatarEventoData = (data) => {
 // Inicializar a aplicação
 onMounted(() => {
   atualizarHorario();
+  // Ordena os eventos por data dentro de cada mês
+  eventosPorMes.forEach((mes) => {
+    mes.eventos.sort((a, b) => new Date(a.dataInicio) - new Date(b.dataInicio));
+  });
 });
 </script>
 
@@ -171,4 +175,17 @@ body {
 .border-yellow-500 {
   border-color: #eab308; /* Amarelo */
 }
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.-top-3 {
+  top: -0.75rem; /* Ajusta a posição vertical */
+}
+
+.left-3 {
+  left: 0.75rem; /* Ajusta a posição horizontal */
+}
+
 </style>
