@@ -27,8 +27,8 @@
 
           <!-- Detalhes do evento -->
           <h3 class="text-lg font-bold">{{ evento.titulo }}</h3>
-          <p class="text-gray-600">Início: {{ formatarData(evento.dataInicio) }}</p>
-          <p class="text-gray-600">Fim: {{ formatarData(evento.dataFim) }}</p>
+          <p class="text-gray-600">Início: {{ formatarEventoData(evento.dataInicio) }}</p>
+          <p class="text-gray-600">Término: {{ formatarEventoData(evento.dataFim) }}</p>
 
           <!-- Countdown ou mensagem de encerramento -->
           <p v-if="!eventoEncerrado(evento.dataFim) && !eventoIniciado(evento.dataInicio)" class="text-gray-500 text-sm">
@@ -127,6 +127,23 @@ const atualizarHorario = async () => {
     console.error("Erro ao obter a data do servidor:", error);
   }
 };
+
+// Função para formatar data no formato "segunda, 01/01/2025 às 19:30hs"
+const formatarEventoData = (data) => {
+  const opcoes = {
+    weekday: "long",
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+  };
+  const dataFormatada = new Date(data).toLocaleDateString("pt-BR", opcoes);
+  const horario = new Date(data).toLocaleTimeString("pt-BR", {
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+  return `${dataFormatada} às ${horario.replace(":", "h")}`;
+};
+
 
 // Inicializar a aplicação
 onMounted(() => {
