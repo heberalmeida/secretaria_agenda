@@ -19,63 +19,72 @@
         "subtitulo": "Pr. Dieber Corrêa Ribeiro",
         "dataInicio": "2025-01-10T19:30:00",
         "dataFim": "2025-01-10T21:00:00",
-        "tag": "Transição"
+        "tag": "Transição",
+        "setor": [10]
       },
       {
         "titulo": "Transição de Posse - Setor 12",
         "subtitulo": "Pr. Vanderson Cavalcante de Oliveira",
         "dataInicio": "2025-01-15T19:30:00",
         "dataFim": "2025-01-15T21:00:00",
-        "tag": "Transição"
+        "tag": "Transição",
+        "setor": [12]
       },
       {
         "titulo": "Transição de Posse - Setor 5",
         "subtitulo": "Pr. Roberto Carlos P. de Oliveira",
         "dataInicio": "2025-01-15T19:30:00",
         "dataFim": "2025-01-15T21:00:00",
-        "tag": "Transição"
+        "tag": "Transição",
+        "setor": [5, 13]
       },
       {
         "titulo": "Transição de Posse - Setor 11",
         "subtitulo": "Pr. Julinei Herão Ferreira",
         "dataInicio": "2025-01-15T19:30:00",
         "dataFim": "2025-01-15T21:00:00",
-        "tag": "Transição"
+        "tag": "Transição",
+        "setor": [11, 17]
       },
       {
         "titulo": "Transição de Posse - Setor 2",
         "subtitulo": "Pr. Ivaldo Domingos Leôncio",
         "dataInicio": "2025-01-17T19:30:00",
         "dataFim": "2025-01-17T21:00:00",
-        "tag": "Transição"
+        "tag": "Transição",
+        "setor": [2, 5]
       },
       {
         "titulo": "Transição de Posse - Setor 6",
         "subtitulo": "Pr. Willian Pereira de Souza",
         "dataInicio": "2025-01-17T19:30:00",
         "dataFim": "2025-01-17T21:00:00",
-        "tag": "Transição"
+        "tag": "Transição",
+        "setor": [6, 12]
       },
       {
         "titulo": "Transição de Posse - Setor 16",
         "subtitulo": "Pr. Marcos Mariano dos Santos",
         "dataInicio": "2025-01-17T19:30:00",
         "dataFim": "2025-01-17T21:00:00",
-        "tag": "Transição"
+        "tag": "Transição",
+        "setor": [16, 11]
       },
       {
         "titulo": "Transição de Posse - Setor 17",
         "subtitulo": "Pr. Jorge Luis Franco",
         "dataInicio": "2025-01-22T19:30:00",
         "dataFim": "2025-01-22T21:00:00",
-        "tag": "Transição"
+        "tag": "Transição",
+        "setor": [17, 2]
       },
       {
         "titulo": "Transição de Posse - Setor 13",
         "subtitulo": "Pr. Paulo Sergio Monteiro",
         "dataInicio": "2025-01-22T19:30:00",
         "dataFim": "2025-01-22T21:00:00",
-        "tag": "Transição"
+        "tag": "Transição",
+        "setor": [13, 6]
       }
     ]
   },

@@ -9,7 +9,22 @@
       <p class="text-xl">{{ formatarData(horarioAtual) }}</p>
     </div>
 
-    <div v-for="mes in eventosPorMes" :key="mes.mes" class="mb-8">
+     <!-- Filtro por setor -->
+     <div class="mb-6 flex justify-center items-center space-x-4">
+      <label for="setor" class="text-lg font-semibold">Mostrar:</label>
+      <select
+        id="setor"
+        v-model="setorSelecionado"
+        class="border border-gray-300 rounded px-4 py-2"
+      >
+        <option value="">Todos os setores</option>
+        <option v-for="setor in setores" :key="setor.id" :value="setor.id">
+          {{ setor.name }}
+        </option>
+      </select>
+    </div>
+
+    <div v-for="mes in eventosFiltrados" :key="mes.mes" class="mb-8">
       <h2 class="text-2xl font-semibold text-blue-600 mb-4">{{ mes.mes }}</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <div
@@ -52,13 +67,37 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted, computed } from "vue";
 import eventos from "@/data/eventos.json";
 import axios from "axios";
 
 // Dados
 const eventosPorMes = eventos;
 const horarioAtual = ref(null); // Inicialmente nulo
+const setorSelecionado = ref(""); // Setor selecionado pelo usuário
+const setores = [
+  { id: "Sede", name: "Sede" },
+  { id: 1, name: "Setor 1 - Aero Rancho" },
+  { id: 2, name: "Setor 2 - Guanandi" },
+  { id: 3, name: "Setor 3 - Piratininga" },
+  { id: 4, name: "Setor 4 - Campo Nobre" },
+  { id: 5, name: "Setor 5 - Moreninha" },
+  { id: 6, name: "Setor 6 - Tiradentes" },
+  { id: 7, name: "Setor 7 - Novo Amazonas" },
+  { id: 8, name: "Setor 8 - Itamaracá" },
+  { id: 9, name: "Setor 9 - Boa Vista" },
+  { id: 10, name: "Setor 10 - Santo Amaro" },
+  { id: 11, name: "Setor 11 - Bom Jardim" },
+  { id: 12, name: "Setor 12 - Sílvia Regina" },
+  { id: 13, name: "Setor 13 - Eldorado" },
+  { id: 14, name: "Setor 14 - Nova Lima" },
+  { id: 15, name: "Setor 15 - Nova Campo Grande" },
+  { id: 16, name: "Setor 16 - Jardim Aero Rancho" },
+  { id: 17, name: "Setor 17 - Santo Eugênio" },
+  { id: 18, name: "Setor 18 - Rochedinho" },
+  { id: 19, name: "Setor 19 - Nogueira" },
+  { id: 20, name: "Setor 20 - Santa Emília" },
+];
 
 // Função para formatar datas
 const formatarData = (data) => {
@@ -165,6 +204,25 @@ const formatarEventoData = (data) => {
   return `${dataFormatada} às ${horario.replace(":", "h")}`;
 };
 
+// Computed para filtrar os eventos com base no setor
+const eventosFiltrados = computed(() => {
+  if (!setorSelecionado.value) {
+    return eventosPorMes; // Retorna todos os eventos se nenhum setor estiver selecionado
+  }
+
+  return eventosPorMes.map((mes) => ({
+    mes: mes.mes,
+    eventos: mes.eventos.filter((evento) => {
+      // Tratamento especial para "Sede"
+      if (setorSelecionado.value === "Sede") {
+        return !evento.setor || evento.setor.includes(0); // Considere '0' como referência para Sede
+      }
+
+      // Filtrar setores numerados
+      return !evento.setor || evento.setor.includes(parseInt(setorSelecionado.value));
+    }),
+  }));
+});
 
 // Inicializar a aplicação
 onMounted(() => {
