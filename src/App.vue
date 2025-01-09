@@ -35,6 +35,8 @@
 
           <!-- Detalhes do evento -->
           <h3 class="text-lg font-bold">{{ evento.titulo }}</h3>
+          <h3 class="text-lg font-bold" v-html="evento.subtitulo"></h3>
+          
           <p class="text-gray-600">Início: {{ formatarEventoData(evento.dataInicio) }}</p>
           <p class="text-gray-600">Término: {{ formatarEventoData(evento.dataFim) }}</p>
 
@@ -122,6 +124,12 @@ const getColor = (tag) => {
       return "bg-purple-200 text-purple-700";
     case "Geral":
       return "bg-yellow-200 text-yellow-700";
+    case "Transição":
+      return "bg-orange-200 text-orange-700";
+    case "Ensino":
+      return "bg-teal-200 text-teal-700";
+    case "Aniversário":
+      return "bg-indigo-200 text-indigo-700"; // Cor para Aniversário
     default:
       return "bg-gray-100 text-gray-700";
   }
@@ -166,6 +174,24 @@ onMounted(() => {
     mes.eventos.sort((a, b) => new Date(a.dataInicio) - new Date(b.dataInicio));
   });
 });
+
+/*
+,
+      {
+        "titulo": "Pr. Eli Barbosa",
+        "subtitulo": "Pr. Jorge Luis Franco",
+        "dataInicio": "2025-03-13T19:30:00",
+        "dataFim": "2025-03-13T21:00:00",
+        "tag": "Aniversário"
+      },
+      {
+        "titulo": "Culto Ensino SEDE",
+        "subtitulo": "Setor 1<br>Rita Vieira - Setor 8<br>Moreninha IV - Setor 5",
+        "dataInicio": "2025-01-22T19:30:00",
+        "dataFim": "2025-01-22T21:00:00",
+        "tag": "Ensino"
+      }
+*/
 </script>
 
 <style>
