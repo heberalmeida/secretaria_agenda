@@ -95,19 +95,22 @@
         "titulo": "Culto da UMADECAMP",
         "dataInicio": "2025-02-01T19:00:00",
         "dataFim": "2025-02-01T21:00:00",
-        "tag": "UMADECAMP"
+        "tag": "UMADECAMP",
+        "dep": ["UMADECAMP"]
       },
       {
         "titulo": "Consagração da UFADECAMP",
         "dataInicio": "2025-02-01T09:00:00",
         "dataFim": "2025-02-01T11:00:00",
-        "tag": "UFADECAMP"
+        "tag": "UFADECAMP",
+        "dep": ["UFADECAMP"]
       },
       {
         "titulo": "Culto da AADECAMP",
         "dataInicio": "2025-02-15T19:00:00",
         "dataFim": "2025-02-15T21:00:00",
-        "tag": "AADECAMP"
+        "tag": "AADECAMP",
+        "dep": ["AADECAMP"]
       },
       {
         "titulo": "Reunião Ministerial",
@@ -124,7 +127,8 @@
         "titulo": "Culto da UMADECAMP",
         "dataInicio": "2025-03-01T19:00:00",
         "dataFim": "2025-03-01T21:00:00",
-        "tag": "UMADECAMP"
+        "tag": "UMADECAMP",
+        "dep": ["UMADECAMP"]
       },
       {
         "titulo": "Workshop",
@@ -155,7 +159,8 @@
         "subtitulo": "Cia Teatro Jeová Nissi",
         "dataInicio": "2025-03-28T19:00:00",
         "dataFim": "2025-03-28T21:00:00",
-        "tag": "AADECAMP"
+        "tag": "AADECAMP",
+        "dep": ["AADECAMP"]
       }
     ]
   },
@@ -166,19 +171,22 @@
         "titulo": "Culto da UMADECAMP",
         "dataInicio": "2025-04-05T19:00:00",
         "dataFim": "2025-04-05T21:00:00",
-        "tag": "UMADECAMP"
+        "tag": "UMADECAMP",
+        "dep": ["UMADECAMP"]
       },
       {
         "titulo": "Consagração da UFADECAMP",
         "dataInicio": "2025-04-05T09:00:00",
         "dataFim": "2025-04-05T11:00:00",
-        "tag": "UFADECAMP"
+        "tag": "UFADECAMP",
+        "dep": ["UFADECAMP"]
       },
       {
         "titulo": "Culto da AADECAMP",
         "dataInicio": "2025-04-19T19:00:00",
         "dataFim": "2025-04-19T21:00:00",
-        "tag": "AADECAMP"
+        "tag": "AADECAMP",
+        "dep": ["AADECAMP"]
       },
       {
         "titulo": "34º EBCG",
@@ -201,13 +209,15 @@
         "titulo": "Culto da UMADECAMP",
         "dataInicio": "2025-05-03T19:00:00",
         "dataFim": "2025-05-03T21:00:00",
-        "tag": "UMADECAMP"
+        "tag": "UMADECAMP",
+        "dep": ["UMADECAMP"]
       },
       {
         "titulo": "Culto da AADECAMP",
         "dataInicio": "2025-05-17T19:00:00",
         "dataFim": "2025-05-17T21:00:00",
-        "tag": "AADECAMP"
+        "tag": "AADECAMP",
+        "dep": ["AADECAMP"]
       },
       {
         "titulo": "Reunião Ministerial",
@@ -219,7 +229,8 @@
         "titulo": "Day with God AADECAMP",
         "dataInicio": "2025-05-01T08:00:00",
         "dataFim": "2025-05-01T21:00:00",
-        "tag": "AADECAMP"
+        "tag": "AADECAMP",
+        "dep": ["AADECAMP"]
       }
     ]
   },
@@ -230,13 +241,15 @@
         "titulo": "Culto da UMADECAMP",
         "dataInicio": "2025-06-07T19:00:00",
         "dataFim": "2025-06-07T21:00:00",
-        "tag": "UMADECAMP"
+        "tag": "UMADECAMP",
+        "dep": ["UMADECAMP"]
       },
       {
         "titulo": "Consagração da UFADECAMP",
         "dataInicio": "2025-06-07T09:00:00",
         "dataFim": "2025-06-07T11:00:00",
-        "tag": "UFADECAMP"
+        "tag": "UFADECAMP",
+        "dep": ["UFADECAMP"]
       },
       {
         "titulo": "Jantar dos Namorados",
@@ -277,7 +290,8 @@
         "titulo": "Culto da AADECAMP",
         "dataInicio": "2025-07-19T19:00:00",
         "dataFim": "2025-07-19T21:00:00",
-        "tag": "AADECAMP"
+        "tag": "AADECAMP",
+        "dep": ["AADECAMP"]
       },
       {
         "titulo": "Santa Ceia Geral (Culto Ação 34 anos de Pastorado)",
@@ -294,13 +308,15 @@
         "titulo": "Culto da UMADECAMP",
         "dataInicio": "2025-08-02T19:00:00",
         "dataFim": "2025-08-02T21:00:00",
-        "tag": "UMADECAMP"
+        "tag": "UMADECAMP",
+        "dep": ["UMADECAMP"]
       },
       {
         "titulo": "Consagração da UFADECAMP",
         "dataInicio": "2025-08-02T09:00:00",
         "dataFim": "2025-08-02T11:00:00",
-        "tag": "UFADECAMP"
+        "tag": "UFADECAMP",
+        "dep": ["UFADECAMP"]
       },
       {
         "titulo": "Congresso da UFADECAMP",
@@ -323,7 +339,8 @@
         "titulo": "Culto da UMADECAMP",
         "dataInicio": "2025-09-06T19:00:00",
         "dataFim": "2025-09-06T21:00:00",
-        "tag": "UMADECAMP"
+        "tag": "UMADECAMP",
+        "dep": ["UMADECAMP"]
       },
       {
         "titulo": "Congresso da SEMADEMS",
@@ -346,13 +363,15 @@
         "titulo": "Culto da UMADECAMP",
         "dataInicio": "2025-10-04T19:00:00",
         "dataFim": "2025-10-04T21:00:00",
-        "tag": "UMADECAMP"
+        "tag": "UMADECAMP",
+        "dep": ["UMADECAMP"]
       },
       {
         "titulo": "Consagração da UFADECAMP",
         "dataInicio": "2025-10-04T09:00:00",
         "dataFim": "2025-10-04T11:00:00",
-        "tag": "UFADECAMP"
+        "tag": "UFADECAMP",
+        "dep": ["UFADECAMP"]
       },
       {
         "titulo": "Congresso da AADECAMP",
@@ -364,7 +383,8 @@
         "titulo": "Congresso da ADM Kids",
         "dataInicio": "2025-10-25T14:00:00",
         "dataFim": "2025-10-25T18:00:00",
-        "tag": "Congresso"
+        "tag": "Congresso",
+        "dep": ["ADM Kids"]
       }
     ]
   },
@@ -375,13 +395,15 @@
         "titulo": "Culto da UMADECAMP",
         "dataInicio": "2025-11-01T19:00:00",
         "dataFim": "2025-11-01T21:00:00",
-        "tag": "UMADECAMP"
+        "tag": "UMADECAMP",
+        "dep": ["UMADECAMP"]
       },
       {
         "titulo": "Culto da AADECAMP",
         "dataInicio": "2025-11-15T19:00:00",
         "dataFim": "2025-11-15T21:00:00",
-        "tag": "AADECAMP"
+        "tag": "AADECAMP",
+        "dep": ["AADECAMP"]
       },
       {
         "titulo": "Culto Santa Ceia Geral",
@@ -398,13 +420,15 @@
         "titulo": "Culto da UMADECAMP",
         "dataInicio": "2025-12-06T19:00:00",
         "dataFim": "2025-12-06T21:00:00",
-        "tag": "UMADECAMP"
+        "tag": "UMADECAMP",
+        "dep": ["UMADECAMP"]
       },
       {
         "titulo": "Consagração da UFADECAMP",
         "dataInicio": "2025-12-06T09:00:00",
         "dataFim": "2025-12-06T11:00:00",
-        "tag": "UFADECAMP"
+        "tag": "UFADECAMP",
+        "dep": ["UFADECAMP"]
       },
       {
         "titulo": "Batismo",

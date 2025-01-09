@@ -109,6 +109,10 @@ const setores = [
   { id: 18, name: "Setor 18 - Rochedinho" },
   { id: 19, name: "Setor 19 - Nogueira" },
   { id: 20, name: "Setor 20 - Santa Emília" },
+  { id: "UFADECAMP", name: "UFADECAMP" },
+  { id: "UMADECAMP", name: "UMADECAMP" },
+  { id: "AADECAMP", name: "AADECAMP" },
+  { id: "ADM Kids", name: "ADM Kids" },
 ];
 
 // Função para formatar datas
@@ -238,21 +242,30 @@ const formatarEventoData = (data) => {
 // Computed para filtrar os eventos com base no setor
 const eventosFiltrados = computed(() => {
   if (!setorSelecionado.value) {
-    return eventosPorMes; // Retorna todos os eventos se nenhum setor estiver selecionado
+    // Retorna todos os eventos se nenhum setor ou departamento estiver selecionado
+    return eventosPorMes;
   }
 
   return eventosPorMes.map((mes) => ({
     mes: mes.mes,
     eventos: mes.eventos.filter((evento) => {
-      // Tratamento especial para "Sede"
+      // Caso seja um departamento (UMADECAMP, UFADECAMP, AADECAMP, etc.)
+      if (["UMADECAMP", "UFADECAMP", "AADECAMP", "ADM Kids"].includes(setorSelecionado.value)) {
+        // Inclui:
+        // 1. Eventos do departamento selecionado (dep corresponde ao selecionado)
+        // 2. Eventos que não possuem a chave "setor"
+        return (!evento.setor && (!evento.dep || evento.dep.includes(setorSelecionado.value)));
+      }
+
+      // Caso seja um setor ou "Sede"
       if (setorSelecionado.value === "Sede") {
         return !evento.setor || evento.setor.includes(0); // Considere '0' como referência para Sede
       }
 
-      // Filtrar setores numerados
+      // Filtra eventos para o setor selecionado
       return !evento.setor || evento.setor.includes(parseInt(setorSelecionado.value));
     }),
-  }));
+  })).filter((mes) => mes.eventos.length > 0); // Remove meses sem eventos
 });
 
 // Inicializar a aplicação
