@@ -36,13 +36,14 @@
             eventoIniciado(evento.dataInicio) && !eventoEncerrado(evento.dataFim) ? 'border-4 border-yellow-500' : ''
           ]"
         >
-           <!-- Ribbon para eventos iniciados -->
-           <div
+          <!-- Ribbon para eventos iniciados -->
+          <div
             v-if="eventoIniciado(evento.dataInicio) && !eventoEncerrado(evento.dataFim)"
             class="absolute -top-3 left-3 bg-yellow-500 text-white text-xs font-bold px-3 py-1 rounded shadow-md"
           >
             em Andamento
           </div>
+
           <!-- Tag (se existir) -->
           <div v-if="evento.tag" class="absolute top-2 right-2 px-2 py-1 rounded text-sm" :class="getColor(evento.tag)">
             {{ evento.tag }}
@@ -51,15 +52,26 @@
           <!-- Detalhes do evento -->
           <h3 class="text-lg font-bold">{{ evento.titulo }}</h3>
           <h3 class="text-lg font-bold" v-html="evento.subtitulo"></h3>
-          
-          <p class="text-gray-600">Início: {{ formatarEventoData(evento.dataInicio) }}</p>
-          <p class="text-gray-600">Término: {{ formatarEventoData(evento.dataFim) }}</p>
 
-          <!-- Countdown ou mensagem de encerramento -->
-          <p v-if="!eventoEncerrado(evento.dataFim) && !eventoIniciado(evento.dataInicio)" class="text-gray-500 text-sm">
+          <!-- Ajuste de Início e Término -->
+          <p :class="getTextColor(evento)">
+            Início: {{ formatarEventoData(evento.dataInicio) }}
+          </p>
+          <p :class="getTextColor(evento)">
+            Término: {{ formatarEventoData(evento.dataFim) }}
+          </p>
+
+          <!-- Ajuste do texto "Faltam" -->
+          <p 
+            v-if="!eventoEncerrado(evento.dataFim) && !eventoIniciado(evento.dataInicio)" 
+            :class="getTextColor(evento)"
+            class="text-sm"
+          >
             Faltam {{ calcularTempoRestante(evento.dataInicio) }}
           </p>
-          <p v-else-if="eventoEncerrado(evento.dataFim)" class="text-red-500 text-sm">Encerrado</p>
+          <p v-else-if="eventoEncerrado(evento.dataFim)" :class="getTextColor(evento)" class="text-sm">
+            Encerrado
+          </p>
         </div>
       </div>
     </div>
@@ -148,6 +160,21 @@ const calcularTempoRestante = (dataInicio) => {
   return `${dias}d ${horas}h ${minutos}m ${segundos}s`;
 };
 
+const isDarkBackground = (tag) => {
+  const darkBackgroundTags = ["Vigília"]; // Tags com fundo escuro
+  return darkBackgroundTags.includes(tag);
+};
+
+// Função para determinar a cor do texto
+const getTextColor = (evento) => {
+  if (eventoEncerrado(evento.dataFim)) {
+    // Quando o evento está encerrado, sempre usa texto escuro
+    return "text-gray-900";
+  }
+  // Caso contrário, ajusta com base no fundo escuro
+  return isDarkBackground(evento.tag) ? "text-white" : "text-gray-600";
+};
+
 // Obter cor do evento com base na tag
 const getColor = (tag) => {
   switch (tag) {
@@ -158,7 +185,7 @@ const getColor = (tag) => {
     case "AADECAMP":
       return "bg-blue-200 text-blue-700";
     case "Batismo":
-      return "bg-red-200 text-red-700";
+      return "bg-cyan-200 text-cyan-700"; 
     case "Congresso":
       return "bg-purple-200 text-purple-700";
     case "Geral":
@@ -169,6 +196,8 @@ const getColor = (tag) => {
       return "bg-teal-200 text-teal-700";
     case "Aniversário":
       return "bg-indigo-200 text-indigo-700"; // Cor para Aniversário
+    case "Vigília":
+      return "bg-amber-800 text-amber-100";
     default:
       return "bg-gray-100 text-gray-700";
   }

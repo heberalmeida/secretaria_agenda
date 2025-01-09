@@ -127,12 +127,6 @@
         "tag": "UMADECAMP"
       },
       {
-        "titulo": "Culto da AADECAMP",
-        "dataInicio": "2025-03-15T19:00:00",
-        "dataFim": "2025-03-15T21:00:00",
-        "tag": "AADECAMP"
-      },
-      {
         "titulo": "Workshop",
         "dataInicio": "2025-03-03T19:30:00",
         "dataFim": "2025-03-04T21:00:00",
@@ -155,6 +149,13 @@
         "dataInicio": "2025-03-29T19:00:00",
         "dataFim": "2025-03-29T21:00:00",
         "tag": "Ceia"
+      },
+      {
+        "titulo": "Culto da AADECAMP",
+        "subtitulo": "Cia Teatro Jeová Nissi",
+        "dataInicio": "2025-03-28T19:00:00",
+        "dataFim": "2025-03-28T21:00:00",
+        "tag": "AADECAMP"
       }
     ]
   },
@@ -213,6 +214,12 @@
         "dataInicio": "2025-05-08T19:30:00",
         "dataFim": "2025-05-08T21:00:00",
         "tag": null
+      },
+      {
+        "titulo": "Day with God AADECAMP",
+        "dataInicio": "2025-05-01T08:00:00",
+        "dataFim": "2025-05-01T21:00:00",
+        "tag": "AADECAMP"
       }
     ]
   },
@@ -230,12 +237,6 @@
         "dataInicio": "2025-06-07T09:00:00",
         "dataFim": "2025-06-07T11:00:00",
         "tag": "UFADECAMP"
-      },
-      {
-        "titulo": "Culto da AADECAMP",
-        "dataInicio": "2025-06-21T19:00:00",
-        "dataFim": "2025-06-21T21:00:00",
-        "tag": "AADECAMP"
       },
       {
         "titulo": "Jantar dos Namorados",
@@ -259,7 +260,7 @@
         "titulo": "Vigília 300 Gideões",
         "dataInicio": "2025-06-27T22:00:00",
         "dataFim": "2025-06-28T06:00:00",
-        "tag": null
+        "tag": "Vigília"
       }
     ]
   },
@@ -302,12 +303,6 @@
         "tag": "UFADECAMP"
       },
       {
-        "titulo": "Culto da AADECAMP",
-        "dataInicio": "2025-08-16T19:00:00",
-        "dataFim": "2025-08-16T21:00:00",
-        "tag": "AADECAMP"
-      },
-      {
         "titulo": "Congresso da UFADECAMP",
         "dataInicio": "2025-08-15T19:00:00",
         "dataFim": "2025-08-17T21:00:00",
@@ -329,12 +324,6 @@
         "dataInicio": "2025-09-06T19:00:00",
         "dataFim": "2025-09-06T21:00:00",
         "tag": "UMADECAMP"
-      },
-      {
-        "titulo": "Culto da AADECAMP",
-        "dataInicio": "2025-09-20T19:00:00",
-        "dataFim": "2025-09-20T21:00:00",
-        "tag": "AADECAMP"
       },
       {
         "titulo": "Congresso da SEMADEMS",
@@ -416,12 +405,6 @@
         "dataInicio": "2025-12-06T09:00:00",
         "dataFim": "2025-12-06T11:00:00",
         "tag": "UFADECAMP"
-      },
-      {
-        "titulo": "Culto da AADECAMP",
-        "dataInicio": "2025-12-20T19:00:00",
-        "dataFim": "2025-12-20T21:00:00",
-        "tag": "AADECAMP"
       },
       {
         "titulo": "Batismo",
