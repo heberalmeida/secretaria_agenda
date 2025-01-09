@@ -198,6 +198,8 @@ const getColor = (tag) => {
       return "bg-indigo-200 text-indigo-700"; // Cor para Aniversário
     case "Vigília":
       return "bg-amber-800 text-amber-100";
+    case "Família":
+      return "bg-red-200 text-red-700";
     default:
       return "bg-gray-100 text-gray-700";
   }
