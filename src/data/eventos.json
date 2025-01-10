@@ -85,6 +85,30 @@
         "dataFim": "2025-01-22T21:00:00",
         "tag": "Transição",
         "setor": [13, 6]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 1<br />TAQUARAL BOSQUE - Setor 7<br />DUQUE DE CAXIAS - Setor 10</div>",
+        "dataInicio": "2025-01-14T19:30:00",
+        "dataFim": "2025-01-14T21:00:00",
+        "tag": "Ensino",
+        "setor": [1, 7, 10]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 2<br />VILA CARVALHO - Sede<br />COOPHAUNIÃO - Setor 11</div>",
+        "dataInicio": "2025-01-21T19:30:00",
+        "dataFim": "2025-01-21T21:00:00",
+        "tag": "Ensino",
+        "setor": [2, "Sede", 11]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 3<br />CATARINA - Setor 13<br />JD. MOEMA - Setor 8</div>",
+        "dataInicio": "2025-01-28T19:30:00",
+        "dataFim": "2025-01-28T21:00:00",
+        "tag": "Ensino",
+        "setor": [3, 13, 8]
       }
     ]
   },
@@ -117,6 +141,38 @@
         "dataInicio": "2025-02-06T19:30:00",
         "dataFim": "2025-02-06T21:00:00",
         "tag": null
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 4<br />SAYONARÁ - Setor 12<br />INDUBRASIL - Setor 15</div>",
+        "dataInicio": "2025-02-04T19:30:00",
+        "dataFim": "2025-02-04T21:00:00",
+        "tag": "Ensino",
+        "setor": [4, 12, 15]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 5<br />COLORADO - Setor 16<br />ANACHE - Setor 14</div>",
+        "dataInicio": "2025-02-11T19:30:00",
+        "dataFim": "2025-02-11T21:00:00",
+        "tag": "Ensino",
+        "setor": [5, 16, 14]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 6<br />BEIJA FLOR - Setor 10<br />SANTA EMÍLIA II - Setor 20</div>",
+        "dataInicio": "2025-02-18T19:30:00",
+        "dataFim": "2025-02-18T21:00:00",
+        "tag": "Ensino",
+        "setor": [6, 10, 20]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 7<br />AYMORÉ - Setor 19<br />PÊNFIGO - Setor 1</div>",
+        "dataInicio": "2025-02-25T19:30:00",
+        "dataFim": "2025-02-25T21:00:00",
+        "tag": "Ensino",
+        "setor": [7, 19, 1]
       }
     ]
   },
@@ -161,6 +217,38 @@
         "dataFim": "2025-03-28T21:00:00",
         "tag": "AADECAMP",
         "dep": ["AADECAMP"]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 8<br />PARATI - Setor 3<br />TAQUARUSSU - Setor 2</div>",
+        "dataInicio": "2025-03-04T19:30:00",
+        "dataFim": "2025-03-04T21:00:00",
+        "tag": "Ensino",
+        "setor": [8, 3, 2]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 9<br />COLIBRI II - Setor 17<br />CARIOCA - Setor 15</div>",
+        "dataInicio": "2025-03-11T19:30:00",
+        "dataFim": "2025-03-11T21:00:00",
+        "tag": "Ensino",
+        "setor": [9, 17, 15]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 10<br />NOVO SÉCULO - Setor 5<br />ALVES PEREIRA - Setor 4</div>",
+        "dataInicio": "2025-03-18T19:30:00",
+        "dataFim": "2025-03-18T21:00:00",
+        "tag": "Ensino",
+        "setor": [10, 5, 4]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 11<br />RANCHO ALEGRE - Setor 20<br />PARQUE DO SOL I - Setor 16</div>",
+        "dataInicio": "2025-03-25T19:30:00",
+        "dataFim": "2025-03-25T21:00:00",
+        "tag": "Ensino",
+        "setor": [11, 20, 16]
       }
     ]
   },
@@ -199,6 +287,46 @@
         "dataInicio": "2025-04-19T19:00:00",
         "dataFim": "2025-04-19T21:00:00",
         "tag":  "Geral"
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 12<br />HORTÊNCIAS II - Setor 19<br />OURO PRETO - Setor 1</div>",
+        "dataInicio": "2025-04-01T19:30:00",
+        "dataFim": "2025-04-01T21:00:00",
+        "tag": "Ensino",
+        "setor": [12, 19, 1]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 13<br />JARDIM PAULISTA - Setor 8<br />PRÓ MORAR - Setor 3</div>",
+        "dataInicio": "2025-04-08T19:30:00",
+        "dataFim": "2025-04-08T21:00:00",
+        "tag": "Ensino",
+        "setor": [13, 8, 3]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 14<br />SANTA LUZIA - Setor 9<br />SÃO PEDRO - Setor 2</div>",
+        "dataInicio": "2025-04-15T19:30:00",
+        "dataFim": "2025-04-15T21:00:00",
+        "tag": "Ensino",
+        "setor": [14, 9, 2]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 15<br />NOVO PARANÁ - Setor 7<br />CIDADE MORENA - Setor 5</div>",
+        "dataInicio": "2025-04-22T19:30:00",
+        "dataFim": "2025-04-22T21:00:00",
+        "tag": "Ensino",
+        "setor": [15, 7, 5]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 16<br />COHAB - Setor 4<br />CAIOBÁ II - Setor 20</div>",
+        "dataInicio": "2025-04-29T19:30:00",
+        "dataFim": "2025-04-29T21:00:00",
+        "tag": "Ensino",
+        "setor": [16, 4, 20]
       }
     ]
   },
@@ -231,6 +359,38 @@
         "dataFim": "2025-05-01T21:00:00",
         "tag": "AADECAMP",
         "dep": ["AADECAMP"]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 17<br />ZÉ PEREIRA II - Setor 12<br />VIVENDAS DO PARQUE - Setor 6</div>",
+        "dataInicio": "2025-05-06T19:30:00",
+        "dataFim": "2025-05-06T21:00:00",
+        "tag": "Ensino",
+        "setor": [17, 12, 6]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 18<br />GIRASSÓIS - Setor 11<br />CAMPO ALTO - Setor 8</div>",
+        "dataInicio": "2025-05-13T19:30:00",
+        "dataFim": "2025-05-13T21:00:00",
+        "tag": "Ensino",
+        "setor": [18, 11, 8]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 19<br />CEREJEIRAS - Setor 13<br />AIRTON SENNA II - Setor 3</div>",
+        "dataInicio": "2025-05-20T19:30:00",
+        "dataFim": "2025-05-20T21:00:00",
+        "tag": "Ensino",
+        "setor": [19, 13, 3]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 20<br />BQ DA ESPERANÇA - Setor 7<br />NASSER - Setor 9</div>",
+        "dataInicio": "2025-05-27T19:30:00",
+        "dataFim": "2025-05-27T21:00:00",
+        "tag": "Ensino",
+        "setor": [20, 7, 9]
       }
     ]
   },
@@ -274,6 +434,38 @@
         "dataInicio": "2025-06-27T22:00:00",
         "dataFim": "2025-06-28T06:00:00",
         "tag": "Vigília"
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 1<br />CH. DAS MANSÕES - Setor 5<br />Sede - Sede</div>",
+        "dataInicio": "2025-06-03T19:30:00",
+        "dataFim": "2025-06-03T21:00:00",
+        "tag": "Ensino",
+        "setor": [1, 5, "Sede"]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 2<br />LIBERDADE - Setor 6<br />AEROPORTO - Setor 12</div>",
+        "dataInicio": "2025-06-10T19:30:00",
+        "dataFim": "2025-06-10T21:00:00",
+        "tag": "Ensino",
+        "setor": [2, 6, 12]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 3<br />CAMPO NOVO - Setor 14<br />PAINEIRAS - Setor 8</div>",
+        "dataInicio": "2025-06-17T19:30:00",
+        "dataFim": "2025-06-17T21:00:00",
+        "tag": "Ensino",
+        "setor": [3, 14, 8]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 4<br />PARQUE DO SOL II - Setor 16<br />VESP MARTINS - Setor 19</div>",
+        "dataInicio": "2025-06-24T19:30:00",
+        "dataFim": "2025-06-24T21:00:00",
+        "tag": "Ensino",
+        "setor": [4, 16, 19]
       }
     ]
   },
@@ -298,6 +490,46 @@
         "dataInicio": "2025-07-26T19:00:00",
         "dataFim": "2025-07-26T21:00:00",
         "tag": "Ceia"
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 5<br />SÃO CONRADO II - Setor 20<br />JOSÉ ABRÃO - Setor 10</div>",
+        "dataInicio": "2025-07-01T19:30:00",
+        "dataFim": "2025-07-01T21:00:00",
+        "tag": "Ensino",
+        "setor": [5, 20, 10]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 6<br />MORENÃO - Setor 17<br />LAGOA PARK - Setor 1</div>",
+        "dataInicio": "2025-07-08T19:30:00",
+        "dataFim": "2025-07-08T21:00:00",
+        "tag": "Ensino",
+        "setor": [6, 17, 1]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 7<br />POPULAR - Setor 15<br />N. BANDEIRANTES - Setor 2</div>",
+        "dataInicio": "2025-07-15T19:30:00",
+        "dataFim": "2025-07-15T21:00:00",
+        "tag": "Ensino",
+        "setor": [7, 15, 2]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 8<br />N. ESPERANÇA - Setor 3<br />COSTA VERDE - Setor 13</div>",
+        "dataInicio": "2025-07-22T19:30:00",
+        "dataFim": "2025-07-22T21:00:00",
+        "tag": "Ensino",
+        "setor": [8, 3, 13]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 9<br />JARDIM DAS MENINAS - Setor 4<br />NOVA LIMA III - Setor 14</div>",
+        "dataInicio": "2025-07-29T19:30:00",
+        "dataFim": "2025-07-29T21:00:00",
+        "tag": "Ensino",
+        "setor": [9, 4, 14]
       }
     ]
   },
@@ -329,6 +561,38 @@
         "dataInicio": "2025-08-07T19:00:00",
         "dataFim": "2025-09-25T21:00:00",
         "tag":  "Geral"
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 10<br />NOVA JERUSALÉM - Setor 5<br />CENTENÁRIO - Setor 16</div>",
+        "dataInicio": "2025-08-05T19:30:00",
+        "dataFim": "2025-08-05T21:00:00",
+        "tag": "Ensino",
+        "setor": [10, 5, 16]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 11<br />SANTA BRANCA - Setor 17<br />NOROESTE - Setor 6</div>",
+        "dataInicio": "2025-08-12T19:30:00",
+        "dataFim": "2025-08-12T21:00:00",
+        "tag": "Ensino",
+        "setor": [11, 17, 6]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 12<br />TIJUCA II - Setor 1<br />CAIOBÁ I - Setor 20</div>",
+        "dataInicio": "2025-08-19T19:30:00",
+        "dataFim": "2025-08-19T21:00:00",
+        "tag": "Ensino",
+        "setor": [12, 1, 20]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 13<br />CONCÓRDIA - Setor 8<br />Bandeirantes - Sede</div>",
+        "dataInicio": "2025-08-26T19:30:00",
+        "dataFim": "2025-08-26T21:00:00",
+        "tag": "Ensino",
+        "setor": [13, 8, "Sede"]
       }
     ]
   },
@@ -353,6 +617,46 @@
         "dataInicio": "2025-09-30T19:30:00",
         "dataFim": "2025-09-30T21:00:00",
         "tag":  "Batismo"
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 14<br />MARLI - Setor 9<br />JUSSARA - Setor 2</div>",
+        "dataInicio": "2025-09-02T19:30:00",
+        "dataFim": "2025-09-02T21:00:00",
+        "tag": "Ensino",
+        "setor": [14, 9, 2]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 15<br />LOS ANGELES - Setor 4<br />CJ AERORANCHO - Setor 19</div>",
+        "dataInicio": "2025-09-09T19:30:00",
+        "dataFim": "2025-09-09T21:00:00",
+        "tag": "Ensino",
+        "setor": [15, 4, 19]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 16<br />UNIÃO - Setor 11<br />SANTA CARMÉLIA - Setor 10</div>",
+        "dataInicio": "2025-09-16T19:30:00",
+        "dataFim": "2025-09-16T21:00:00",
+        "tag": "Ensino",
+        "setor": [16, 11, 10]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 17<br />CH DOS PODERES - Setor 6<br />COLUMBIA II - Setor 7</div>",
+        "dataInicio": "2025-09-23T19:30:00",
+        "dataFim": "2025-09-23T21:00:00",
+        "tag": "Ensino",
+        "setor": [17, 6, 7]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 18<br />DALLAS - Setor 5<br />CRISTO REDENTOR - Setor 8</div>",
+        "dataInicio": "2025-09-30T19:30:00",
+        "dataFim": "2025-09-30T21:00:00",
+        "tag": "Ensino",
+        "setor": [18, 5, 8]
       }
     ]
   },
@@ -385,6 +689,38 @@
         "dataFim": "2025-10-25T18:00:00",
         "tag": "Congresso",
         "dep": ["ADM Kids"]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 19<br />CAMPO BELO - Setor 14<br />ITÁLIA - Setor 12</div>",
+        "dataInicio": "2025-10-07T19:30:00",
+        "dataFim": "2025-10-07T21:00:00",
+        "tag": "Ensino",
+        "setor": [19, 14, 12]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 20<br />BALSAMO - Setor 4<br />MORADA VERDE - Setor 13</div>",
+        "dataInicio": "2025-10-14T19:30:00",
+        "dataFim": "2025-10-14T21:00:00",
+        "tag": "Ensino",
+        "setor": [20, 4, 13]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 1<br />FLUMINENSE - Setor 9<br />CAIÇARA - Setor 11</div>",
+        "dataInicio": "2025-10-21T19:30:00",
+        "dataFim": "2025-10-21T21:00:00",
+        "tag": "Ensino",
+        "setor": [1, 9, 11]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 2<br />DOM ANTÔNIO - Setor 16<br />VILA NOVA - Setor 6</div>",
+        "dataInicio": "2025-10-28T19:30:00",
+        "dataFim": "2025-10-28T21:00:00",
+        "tag": "Ensino",
+        "setor": [2, 16, 6]
       }
     ]
   },
@@ -410,6 +746,38 @@
         "dataInicio": "2025-11-29T19:00:00",
         "dataFim": "2025-11-29T21:00:00",
         "tag": "Ceia"
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 3<br />RITA VIEIRA III - Setor 8<br />COLUMBIA - Setor 7</div>",
+        "dataInicio": "2025-11-04T19:30:00",
+        "dataFim": "2025-11-04T21:00:00",
+        "tag": "Ensino",
+        "setor": [3, 8, 7]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 4<br />SUMATRA - Setor 19<br />CAMPO VERDE - Setor 14</div>",
+        "dataInicio": "2025-11-11T19:30:00",
+        "dataFim": "2025-11-11T21:00:00",
+        "tag": "Ensino",
+        "setor": [4, 19, 14]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 5<br />MONTE ALEGRE - Setor 17<br />SANTAMÔNICA - Setor 15</div>",
+        "dataInicio": "2025-11-18T19:30:00",
+        "dataFim": "2025-11-18T21:00:00",
+        "tag": "Ensino",
+        "setor": [5, 17, 15]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 6<br />TARUMÃ - Setor 1<br />ZÉ PEREIRA I - Setor 12</div>",
+        "dataInicio": "2025-11-25T19:30:00",
+        "dataFim": "2025-11-25T21:00:00",
+        "tag": "Ensino",
+        "setor": [6, 1, 12]
       }
     ]
   },
@@ -447,6 +815,46 @@
         "dataInicio": "2025-12-31T22:00:00",
         "dataFim": "2026-01-01T01:00:00",
         "tag":  "Geral"
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 7<br />SÃO CONRADO I - Setor 11<br />MANAÍRA - Setor 16</div>",
+        "dataInicio": "2025-12-02T19:30:00",
+        "dataFim": "2025-12-02T21:00:00",
+        "tag": "Ensino",
+        "setor": [7, 11, 16]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 8<br />ALBERT SABIN - Setor 2<br />NASC. DO SEGREDO - Setor 13</div>",
+        "dataInicio": "2025-12-09T19:30:00",
+        "dataFim": "2025-12-09T21:00:00",
+        "tag": "Ensino",
+        "setor": [8, 2, 13]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 9<br />PAULO COELHO MACHADO - Setor 4<br />GUANANDI II - Setor 3</div>",
+        "dataInicio": "2025-12-16T19:30:00",
+        "dataFim": "2025-12-16T21:00:00",
+        "tag": "Ensino",
+        "setor": [9, 4, 3]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 10<br />NOVA LIMA II - Setor 14<br />MORENINHA IV - Setor 5</div>",
+        "dataInicio": "2025-12-23T19:30:00",
+        "dataFim": "2025-12-23T21:00:00",
+        "tag": "Ensino",
+        "setor": [10, 14, 5]
+      },
+      {
+        "titulo": "Culto de Ensino",
+        "subtitulo": "<div>Setor 11<br />VERDES MARES - Setor 1<br />ESTRELA PARQUE - Setor 6</div>",
+        "dataInicio": "2025-12-30T19:30:00",
+        "dataFim": "2025-12-30T21:00:00",
+        "tag": "Ensino",
+        "setor": [11, 1, 6]
       }
     ]
   }

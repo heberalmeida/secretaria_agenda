@@ -28,8 +28,8 @@
       <h2 class="text-2xl font-semibold text-blue-600 mb-4">{{ mes.mes }}</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <div
-          v-for="evento in mes.eventos"
-          :key="evento.titulo"
+          v-for="(evento, k) in mes.eventos"
+          :key="k"
           :class="[ 
             'p-4 rounded shadow-md relative',
             eventoEncerrado(evento.dataFim) ? 'bg-gray-200 opacity-50' : getColor(evento.tag),
@@ -197,7 +197,7 @@ const getColor = (tag) => {
     case "Transição":
       return "bg-orange-200 text-orange-700";
     case "Ensino":
-      return "bg-teal-200 text-teal-700";
+      return "bg-teal-300 text-teal-700";
     case "Aniversário":
       return "bg-indigo-200 text-indigo-700"; // Cor para Aniversário
     case "Vigília":
