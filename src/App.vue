@@ -69,7 +69,7 @@
           >
             Faltam {{ calcularTempoRestante(evento.dataInicio) }}
           </p>
-          <p v-else-if="eventoEncerrado(evento.dataFim)" :class="getTextColor(evento)" class="text-sm">
+          <p v-else-if="eventoEncerrado(evento.dataFim)" class="text-red-500 text-sm">
             Encerrado
           </p>
         </div>
