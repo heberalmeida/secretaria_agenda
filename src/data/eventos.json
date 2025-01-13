@@ -109,6 +109,103 @@
         "dataFim": "2025-01-28T21:00:00",
         "tag": "Ensino",
         "setor": [3, 13, 8]
+      },
+      {
+        "titulo": "Janeiro Profético - Pr. Carvalho Junior",
+        "dataInicio": "2025-01-13T19:30:00",
+        "dataFim": "2025-01-13T21:00:00",
+        "tag": "Geral",
+        "subtitulo": "Sede, Setor 8, Setor 13",
+        "setor": ["Sede", 8, 13]
+      },
+      {
+        "titulo": "Janeiro Profético - Pr. Carvalho Junior",
+        "dataInicio": "2025-01-14T19:30:00",
+        "dataFim": "2025-01-14T21:00:00",
+        "tag": "Geral",
+        "subtitulo": "Sede, Setor 1, Setor 10, Taquaral Bosque - Setor 7",
+        "setor": ["Sede", 1, 7, 10]
+      },
+      {
+        "titulo": "Janeiro Profético - Pr. Carvalho Junior",
+        "dataInicio": "2025-01-15T19:30:00",
+        "dataFim": "2025-01-15T21:00:00",
+        "tag": "Geral",
+        "subtitulo": "Sede, Setor 17, Setor 6",
+        "setor": ["Sede", 17, 6]
+      },
+      {
+        "titulo": "Janeiro Profético - Ev. Darwin Santos",
+        "dataInicio": "2025-01-16T19:30:00",
+        "dataFim": "2025-01-16T21:00:00",
+        "tag": "Geral",
+        "subtitulo": "Sede, Setor 12, Setor 19",
+        "setor": ["Sede", 12, 19]
+      },
+      {
+        "titulo": "Janeiro Profético - Pr. Edilson Silva",
+        "dataInicio": "2025-01-17T19:30:00",
+        "dataFim": "2025-01-17T21:00:00",
+        "tag": "Geral",
+        "subtitulo": "Sede, Setor 5, Setor 15, AADECAMP",
+        "setor": ["Sede", 5, 15]
+      },
+      {
+        "titulo": "Janeiro Profético - Pr. Edilson Silva",
+        "dataInicio": "2025-01-18T19:30:00",
+        "dataFim": "2025-01-18T21:00:00",
+        "tag": "Geral",
+        "subtitulo": "Sede, Setor 7, Setor 11, UFADECAMP",
+        "setor": ["Sede", 7, 11]
+      },
+      {
+        "titulo": "Janeiro Profético - Pr. Edilson Silva",
+        "dataInicio": "2025-01-19T19:30:00",
+        "dataFim": "2025-01-19T21:00:00",
+        "tag": "Geral",
+        "subtitulo": "Sede",
+        "setor": ["Sede"]
+      },
+      {
+        "titulo": "Janeiro Profético - Pr. Edilson Silva",
+        "dataInicio": "2025-01-20T19:30:00",
+        "dataFim": "2025-01-20T21:00:00",
+        "tag": "Geral",
+        "subtitulo": "Sede, Setor 4",
+        "setor": ["Sede", 4]
+      },
+      {
+        "titulo": "Janeiro Profético - Pr. Elienson Miranda",
+        "dataInicio": "2025-01-21T19:30:00",
+        "dataFim": "2025-01-21T21:00:00",
+        "tag": "Geral",
+        "subtitulo": "Sede, Setor 2, Setor 3, Vila Carvalho - SEDE, Coophaunião - Setor 11",
+        "setor": ["Sede", 2, 3, 11]
+      },
+      {
+        "titulo": "Janeiro Profético - Pr. Elienson Miranda",
+        "dataInicio": "2025-01-22T19:30:00",
+        "dataFim": "2025-01-22T21:00:00",
+        "tag": "Geral",
+        "subtitulo": "Sede, Setor 20, Setor 18",
+        "setor": ["Sede", 20, 18]
+      },
+      {
+        "titulo": "Janeiro Profético - Pr. Elienson Miranda",
+        "dataInicio": "2025-01-23T19:30:00",
+        "dataFim": "2025-01-23T21:00:00",
+        "tag": "Geral",
+        "subtitulo": "Sede, Setor 9, Setor 16",
+        "setor": ["Sede", 9, 16]
+      },
+      {
+        "titulo": "Janeiro Profético - Pr. Elienson Miranda",
+        "dataInicio": "2025-01-24T19:30:00",
+        "dataFim": "2025-01-24T21:00:00",
+        "tag": "Geral",
+        "subtitulo": "Sede, Setor 14, UMADECAMP",
+        "setor": ["Sede", 14],
+        "dep": ["UMADECAMP"]
       }
     ]
   },
