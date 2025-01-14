@@ -131,8 +131,8 @@
         "dataInicio": "2025-01-15T19:30:00",
         "dataFim": "2025-01-15T21:00:00",
         "tag": "Geral",
-        "subtitulo": "Sede, Setor 17, Setor 6",
-        "setor": ["Sede", 17, 6]
+        "subtitulo": "Sede, Setor 6",
+        "setor": ["Sede", 6]
       },
       {
         "titulo": "Janeiro Profético - Ev. Darwin Santos",
@@ -195,8 +195,8 @@
         "dataInicio": "2025-01-23T19:30:00",
         "dataFim": "2025-01-23T21:00:00",
         "tag": "Geral",
-        "subtitulo": "Sede, Setor 9, Setor 16",
-        "setor": ["Sede", 9, 16]
+        "subtitulo": "Sede, Setor 9, Setor 16, Setor 17",
+        "setor": ["Sede", 9, 16, 17]
       },
       {
         "titulo": "Janeiro Profético - Pr. Elienson Miranda",
