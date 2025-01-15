@@ -79,7 +79,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from "vue";
+import { ref, onMounted, computed, onBeforeUnmount } from "vue";
 import eventos from "@/data/eventos.json";
 import axios from "axios";
 
@@ -215,6 +215,7 @@ const atualizarHorario = async () => {
     const response = await axios.get("https://api.pokemon.sistemaweb.com.br/date");
     const serverDate = new Date(response.data.date.replace(" ", "T"));
     horarioAtual.value = serverDate;
+    horarioAtual.value = "2025-03-01 10:00:00";
     setInterval(() => {
       horarioAtual.value = new Date(horarioAtual.value.getTime() + 1000);
     }, 1000);
@@ -249,18 +250,21 @@ const eventosFiltrados = computed(() => {
   return eventosPorMes.map((mes) => ({
     mes: mes.mes,
     eventos: mes.eventos.filter((evento) => {
+
+      
       // Caso seja um departamento (UMADECAMP, UFADECAMP, AADECAMP, etc.)
       if (["UMADECAMP", "UFADECAMP", "AADECAMP", "ADM Kids"].includes(setorSelecionado.value)) {
         // Inclui:
         // 1. Eventos do departamento selecionado (dep corresponde ao selecionado)
         // 2. Eventos que não possuem a chave "setor"
-        return (!evento.setor && (!evento.dep || evento.dep.includes(setorSelecionado.value)));
+        return ((!evento.setor || evento.dep) && (!evento.dep || evento.dep.includes(setorSelecionado.value)));
       }
 
       // Caso seja um setor ou "Sede"
       if (setorSelecionado.value === "Sede") {
-        return !evento.setor || evento.setor.includes(0); // Considere '0' como referência para Sede
-      }
+  return !evento.setor || evento.setor.includes("Sede"); // Verifique "Sede"
+}
+
 
       // Filtra eventos para o setor selecionado
       return !evento.setor || evento.setor.includes(parseInt(setorSelecionado.value));
@@ -271,11 +275,39 @@ const eventosFiltrados = computed(() => {
 // Inicializar a aplicação
 onMounted(() => {
   atualizarHorario();
-  // Ordena os eventos por data dentro de cada mês
-  eventosPorMes.forEach((mes) => {
-    mes.eventos.sort((a, b) => new Date(a.dataInicio) - new Date(b.dataInicio));
-  });
+
+  // Reordena os eventos sempre que a data atual for atualizada
+  const reordenarEventos = () => {
+    console.log(eventosPorMes)
+    eventosPorMes.forEach((mes) => {
+      mes.eventos.sort((a, b) => {
+        const encerradoA = eventoEncerrado(a.dataFim);
+        const encerradoB = eventoEncerrado(b.dataFim);
+
+        // Coloca eventos encerrados no final
+        if (encerradoA !== encerradoB) {
+          return encerradoA ? 1 : -1;
+        }
+
+        // Se ambos estão no mesmo estado, ordena por data de início
+        return new Date(a.dataInicio) - new Date(b.dataInicio);
+      });
+    });
+  };
+
+  // Reordena os eventos inicialmente e sempre que o horário atual for atualizado
+  const intervalId = setInterval(() => {
+    if (horarioAtual.value) {
+      reordenarEventos();
+    }
+  }, 1000); // Checa a cada 1 segundo
+
+  // Limpa o intervalo ao desmontar o componente
+  onBeforeUnmount(() => clearInterval(intervalId));
 });
+
+// Função para verificar se o evento está encerrado
+
 
 /*
 ,

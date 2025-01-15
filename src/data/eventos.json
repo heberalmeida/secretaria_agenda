@@ -1,6 +1,7 @@
 [
   {
     "mes": "Janeiro",
+    "data": "2025-01",
     "eventos": [
       {
         "titulo": "Assembleia Geral",
@@ -148,7 +149,8 @@
         "dataFim": "2025-01-17T21:00:00",
         "tag": "Geral",
         "subtitulo": "Sede, Setor 5, Setor 15, AADECAMP",
-        "setor": ["Sede", 5, 15]
+        "setor": ["Sede", 5, 15],
+        "dep": ["AADECAMP"]
       },
       {
         "titulo": "Janeiro Profético - Pr. Edilson Silva",
@@ -156,7 +158,8 @@
         "dataFim": "2025-01-18T21:00:00",
         "tag": "Geral",
         "subtitulo": "Sede, Setor 7, Setor 11, UFADECAMP",
-        "setor": ["Sede", 7, 11]
+        "setor": ["Sede", 7, 11],
+        "dep": ["UFADECAMP"]
       },
       {
         "titulo": "Janeiro Profético - Pr. Edilson Silva",
@@ -211,6 +214,7 @@
   },
   {
     "mes": "Fevereiro",
+    "data": "2025-02",
     "eventos": [
       {
         "titulo": "Culto da UMADECAMP",
@@ -275,6 +279,7 @@
   },
   {
     "mes": "Março",
+    "data": "2025-03",
     "eventos": [
       {
         "titulo": "Culto da UMADECAMP",
@@ -351,6 +356,7 @@
   },
   {
     "mes": "Abril",
+    "data": "2025-04",
     "eventos": [
       {
         "titulo": "Culto da UMADECAMP",
@@ -429,6 +435,7 @@
   },
   {
     "mes": "Maio",
+    "data": "2025-05",
     "eventos": [
       {
         "titulo": "Culto da UMADECAMP",
@@ -493,6 +500,7 @@
   },
   {
     "mes": "Junho",
+    "data": "2025-06",
     "eventos": [
       {
         "titulo": "Culto da UMADECAMP",
@@ -568,6 +576,7 @@
   },
   {
     "mes": "Julho",
+    "data": "2025-07",
     "eventos": [
       {
         "titulo": "Congresso UMADECAMP",
@@ -632,6 +641,7 @@
   },
   {
     "mes": "Agosto",
+    "data": "2025-08",
     "eventos": [
       {
         "titulo": "Culto da UMADECAMP",
@@ -695,6 +705,7 @@
   },
   {
     "mes": "Setembro",
+    "data": "2025-09",
     "eventos": [
       {
         "titulo": "Culto da UMADECAMP",
@@ -759,6 +770,7 @@
   },
   {
     "mes": "Outubro",
+    "data": "2025-10",
     "eventos": [
       {
         "titulo": "Culto da UMADECAMP",
@@ -823,6 +835,7 @@
   },
   {
     "mes": "Novembro",
+    "data": "2025-11",
     "eventos": [
       {
         "titulo": "Culto da UMADECAMP",
@@ -880,6 +893,7 @@
   },
   {
     "mes": "Dezembro",
+    "data": "2025-12",
     "eventos": [
       {
         "titulo": "Culto da UMADECAMP",
