@@ -2,21 +2,17 @@
   <div class="container mx-auto px-4">
     <h1 class="text-3xl font-bold text-center my-6">Calendário 2025</h1>
     <h2 class="text-3xl font-bold text-center my-6">A COSMOVISÃO BÍBLICA PARA IGREJA CONTEMPORÂNEA </h2>
-    
+
     <!-- Data e horário atual -->
     <div class="text-center text-gray-700 mb-6">
       <p class="text-lg font-semibold">Data e Hora Atual</p>
       <p class="text-xl">{{ formatarData(horarioAtual) }}</p>
     </div>
 
-     <!-- Filtro por setor -->
-     <div class="mb-6 flex justify-center items-center space-x-4">
+    <!-- Filtro por setor -->
+    <div class="mb-6 flex justify-center items-center space-x-4">
       <label for="setor" class="text-lg font-semibold">Mostrar:</label>
-      <select
-        id="setor"
-        v-model="setorSelecionado"
-        class="border border-gray-300 rounded px-4 py-2"
-      >
+      <select id="setor" v-model="setorSelecionado" class="border border-gray-300 rounded px-4 py-2">
         <option value="">Todos os setores</option>
         <option v-for="setor in setores" :key="setor.id" :value="setor.id">
           {{ setor.name }}
@@ -25,24 +21,20 @@
     </div>
 
     <div v-for="mes in eventosFiltrados" :key="mes.mes" class="mb-8">
-      <h2 class="text-2xl font-semibold text-blue-600 mb-4">{{ mes.mes }}</h2>
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">{{ mes.mes }}/2025</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        <div
-          v-for="(evento, k) in mes.eventos"
-          :key="k"
-          :class="[ 
-            'p-4 rounded shadow-md relative',
-            eventoEncerrado(evento.dataFim) ? 'bg-gray-200 opacity-50' : getColor(evento.tag),
-            eventoIniciado(evento.dataInicio) && !eventoEncerrado(evento.dataFim) ? 'border-4 border-yellow-500' : ''
-          ]"
-        >
+        <div v-for="(evento, k) in mes.eventos" :key="k" :class="[
+          'p-4 rounded shadow-md relative',
+          eventoEncerrado(evento.dataFim) ? 'bg-gray-200 opacity-50' : getColor(evento.tag),
+          eventoIniciado(evento.dataInicio) && !eventoEncerrado(evento.dataFim) ? 'border-4 border-yellow-500' : ''
+        ]">
           <!-- Ribbon para eventos iniciados -->
-          <div
-            v-if="eventoIniciado(evento.dataInicio) && !eventoEncerrado(evento.dataFim)"
-            class="absolute -top-3 left-3 bg-yellow-500 text-white text-xs font-bold px-3 py-1 rounded shadow-md"
-          >
-            em Andamento
+          <div v-if="eventoIniciado(evento.dataInicio) && !eventoEncerrado(evento.dataFim)"
+            class="absolute -top-3 left-3 bg-yellow-500 text-white text-xs font-bold px-3 py-1 rounded shadow-md flex items-center space-x-2">
+            <span class="rec-icon"></span>
+            <span>em Andamento</span>
           </div>
+
 
           <!-- Tag (se existir) -->
           <div v-if="evento.tag" class="absolute top-2 right-2 px-2 py-1 rounded text-sm" :class="getColor(evento.tag)">
@@ -62,11 +54,8 @@
           </p>
 
           <!-- Ajuste do texto "Faltam" -->
-          <p 
-            v-if="!eventoEncerrado(evento.dataFim) && !eventoIniciado(evento.dataInicio)" 
-            :class="getTextColor(evento)"
-            class="text-sm"
-          >
+          <p v-if="!eventoEncerrado(evento.dataFim) && !eventoIniciado(evento.dataInicio)" :class="getTextColor(evento)"
+            class="text-sm">
             Faltam {{ calcularTempoRestante(evento.dataInicio) }}
           </p>
           <p v-else-if="eventoEncerrado(evento.dataFim)" class="text-red-500 text-sm">
@@ -189,7 +178,7 @@ const getColor = (tag) => {
     case "AADECAMP":
       return "bg-blue-200 text-blue-700";
     case "Batismo":
-      return "bg-cyan-200 text-cyan-700"; 
+      return "bg-cyan-200 text-cyan-700";
     case "Congresso":
       return "bg-purple-200 text-purple-700";
     case "Geral":
@@ -215,7 +204,7 @@ const atualizarHorario = async () => {
     const response = await axios.get("https://api.pokemon.sistemaweb.com.br/date");
     const serverDate = new Date(response.data.date.replace(" ", "T"));
     horarioAtual.value = serverDate;
-    horarioAtual.value = "2025-03-01 10:00:00";
+    //horarioAtual.value = "2025-03-01 10:00:00";
     setInterval(() => {
       horarioAtual.value = new Date(horarioAtual.value.getTime() + 1000);
     }, 1000);
@@ -240,71 +229,107 @@ const formatarEventoData = (data) => {
   return `${dataFormatada} às ${horario.replace(":", "h")}`;
 };
 
-// Computed para filtrar os eventos com base no setor
 const eventosFiltrados = computed(() => {
-  if (!setorSelecionado.value) {
-    // Retorna todos os eventos se nenhum setor ou departamento estiver selecionado
-    return eventosPorMes;
-  }
+  // Verificar se o mês está encerrado
+  const mesEncerrado = (dataMes) => {
+    const dataAtual = new Date(horarioAtual.value);
+    const dataMesComparacao = new Date(`${dataMes}-01`);
+    return dataMesComparacao < dataAtual;
+  };
 
-  return eventosPorMes.map((mes) => ({
-    mes: mes.mes,
-    eventos: mes.eventos.filter((evento) => {
+  // Verificar se o mês é o atual
+  const mesAtual = (dataMes) => {
+    const dataAtual = new Date(horarioAtual.value);
+    const anoAtual = dataAtual.getFullYear();
+    const mesAtual = dataAtual.getMonth() + 1; // Janeiro = 0
 
-      
-      // Caso seja um departamento (UMADECAMP, UFADECAMP, AADECAMP, etc.)
-      if (["UMADECAMP", "UFADECAMP", "AADECAMP", "ADM Kids"].includes(setorSelecionado.value)) {
-        // Inclui:
-        // 1. Eventos do departamento selecionado (dep corresponde ao selecionado)
-        // 2. Eventos que não possuem a chave "setor"
-        return ((!evento.setor || evento.dep) && (!evento.dep || evento.dep.includes(setorSelecionado.value)));
-      }
+    const [ano, mes] = dataMes.split("-").map(Number);
+    return ano === anoAtual && mes === mesAtual;
+  };
 
-      // Caso seja um setor ou "Sede"
-      if (setorSelecionado.value === "Sede") {
-  return !evento.setor || evento.setor.includes("Sede"); // Verifique "Sede"
-}
+  // Reordena meses: atual, futuros, encerrados no final
+  const mesesOrdenados = eventosPorMes.slice().sort((a, b) => {
+    const encerradoA = mesEncerrado(a.data);
+    const encerradoB = mesEncerrado(b.data);
 
+    const atualA = mesAtual(a.data);
+    const atualB = mesAtual(b.data);
 
-      // Filtra eventos para o setor selecionado
-      return !evento.setor || evento.setor.includes(parseInt(setorSelecionado.value));
-    }),
-  })).filter((mes) => mes.eventos.length > 0); // Remove meses sem eventos
+    // Prioriza o mês atual
+    if (atualA) return -1;
+    if (atualB) return 1;
+
+    // Prioriza meses futuros
+    if (!encerradoA && encerradoB) return -1;
+    if (encerradoA && !encerradoB) return 1;
+
+    // Ordena cronologicamente os meses restantes
+    return new Date(`${a.data}-01`) - new Date(`${b.data}-01`);
+  });
+
+  // Ordenar eventos dentro de cada mês
+  return mesesOrdenados
+    .map((mes) => ({
+      mes: mes.mes,
+      eventos: mes.eventos
+        .slice()
+        .sort((a, b) => {
+          const encerradoA = eventoEncerrado(a.dataFim);
+          const encerradoB = eventoEncerrado(b.dataFim);
+
+          // Move eventos encerrados para o final
+          if (encerradoA !== encerradoB) {
+            return encerradoA ? 1 : -1;
+          }
+
+          // Ordena cronologicamente os eventos restantes
+          return new Date(a.dataInicio) - new Date(b.dataInicio);
+        })
+        .filter((evento) => {
+          if (setorSelecionado.value) {
+            // Caso seja um departamento ou setor específico
+            if (["UMADECAMP", "UFADECAMP", "AADECAMP", "ADM Kids"].includes(setorSelecionado.value)) {
+              return (
+                (!evento.setor || evento.dep) &&
+                (!evento.dep || evento.dep.includes(setorSelecionado.value))
+              );
+            }
+
+            if (setorSelecionado.value === "Sede") {
+              return !evento.setor || evento.setor.includes("Sede");
+            }
+
+            return !evento.setor || evento.setor.includes(parseInt(setorSelecionado.value));
+          }
+
+          // Caso geral, sem filtros
+          return true;
+        }),
+    }))
+    .filter((mes) => mes.eventos.length > 0); // Remove meses sem eventos
 });
+
+
 
 // Inicializar a aplicação
 onMounted(() => {
   atualizarHorario();
 
-  // Reordena os eventos sempre que a data atual for atualizada
-  const reordenarEventos = () => {
-    console.log(eventosPorMes)
-    eventosPorMes.forEach((mes) => {
-      mes.eventos.sort((a, b) => {
-        const encerradoA = eventoEncerrado(a.dataFim);
-        const encerradoB = eventoEncerrado(b.dataFim);
-
-        // Coloca eventos encerrados no final
-        if (encerradoA !== encerradoB) {
-          return encerradoA ? 1 : -1;
-        }
-
-        // Se ambos estão no mesmo estado, ordena por data de início
-        return new Date(a.dataInicio) - new Date(b.dataInicio);
-      });
-    });
-  };
-
-  // Reordena os eventos inicialmente e sempre que o horário atual for atualizado
+  // Reordenação dinâmica baseada no horário atual
   const intervalId = setInterval(() => {
     if (horarioAtual.value) {
-      reordenarEventos();
+      console.log("Atualizando ordem dos eventos");
+      eventosFiltrados.value; // Força reavaliação do computed
     }
-  }, 1000); // Checa a cada 1 segundo
+  }, 60000); // Atualiza a cada minuto
 
   // Limpa o intervalo ao desmontar o componente
   onBeforeUnmount(() => clearInterval(intervalId));
 });
+
+
+// Inicializar a aplicação
+
 
 // Função para verificar se o evento está encerrado
 
@@ -337,8 +362,9 @@ body {
 .border-4 {
   border-width: 4px;
 }
+
 .border-yellow-500 {
-  border-color: #eab308; /* Amarelo */
+  border-color: #eab308;
 }
 
 .shadow-md {
@@ -346,11 +372,30 @@ body {
 }
 
 .-top-3 {
-  top: -0.75rem; /* Ajusta a posição vertical */
+  top: -0.75rem;
 }
 
 .left-3 {
-  left: 0.75rem; /* Ajusta a posição horizontal */
+  left: 0.75rem;
 }
 
+.rec-icon {
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: white;
+  }
+}
 </style>
