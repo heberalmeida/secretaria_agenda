@@ -148,8 +148,8 @@
         "dataInicio": "2025-01-17T19:30:00",
         "dataFim": "2025-01-17T21:00:00",
         "tag": "Geral",
-        "subtitulo": "Sede, Setor 5, Setor 15, AADECAMP",
-        "setor": ["Sede", 5, 15],
+        "subtitulo": "Sede, Setor 15, AADECAMP",
+        "setor": ["Sede", 15],
         "dep": ["AADECAMP"]
       },
       {
@@ -206,8 +206,8 @@
         "dataInicio": "2025-01-24T19:30:00",
         "dataFim": "2025-01-24T21:00:00",
         "tag": "Geral",
-        "subtitulo": "Sede, Setor 14, UMADECAMP",
-        "setor": ["Sede", 14],
+        "subtitulo": "Sede, Setor 5, Setor 14, UMADECAMP",
+        "setor": ["Sede", 5, 14],
         "dep": ["UMADECAMP"]
       }
     ]
