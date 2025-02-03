@@ -238,10 +238,11 @@
         "dep": ["AADECAMP"]
       },
       {
-        "titulo": "Reunião Ministerial",
-        "dataInicio": "2025-02-06T19:30:00",
-        "dataFim": "2025-02-06T21:00:00",
-        "tag": null
+        "titulo": "Reunião Geral ADM Kids",
+        "dataInicio": "2025-02-13T19:30:00",
+        "dataFim": "2025-02-13T21:00:00",
+        "tag": "ADM Kids",
+        "dep": ["ADM Kids"]
       },
       {
         "titulo": "Culto de Ensino",
